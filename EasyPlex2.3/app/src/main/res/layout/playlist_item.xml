@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/widget_margin"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="10dp"
+        android:shape="ring"
+        android:innerRadius="5dp"
+        android:thicknessRatio="5"
+        card_view:cardBackgroundColor="@color/bottomnavigationbgcolor">
+
+        <LinearLayout
+            android:id="@+id/rootLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/spacing_xxlarge"
+            android:orientation="horizontal"
+            android:paddingStart="15dp"
+            android:paddingEnd="@dimen/spacing_large"
+            tools:ignore="UselessParent">
+
+            <RelativeLayout
+                android:id="@+id/userProfile"
+                android:layout_width="80dp"
+                android:padding="10dp"
+                android:layout_height="80dp">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/thumbnailImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:civ_border="true"
+                    android:src="@drawable/gon"
+                    app:civ_border_color="@color/main_color"
+                    app:civ_border_width="2dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="0dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/pixel_15dp"
+                android:text="@string/download_options"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey_11" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:id="@+id/upcoming_relative"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/pixel_200dp"
+        android:layout_marginBottom="@dimen/pixel_10dp">
+
+
+
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pixel_200dp"
+            android:fitsSystemWindows="true"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image" />
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pixel_200dp"
+            android:background="@drawable/fragment_shadows"
+            android:fitsSystemWindows="true"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_20">
+
+
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/grey_11"
+                android:textSize="12sp"
+                app:fontFamily="sans-serif-black" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/main_color"
+                android:layout_marginTop="3dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:paddingStart="7dp"
+                android:paddingEnd="7dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/grey_11"
+                android:textSize="10sp"
+                app:fontFamily="sans-serif-black"
+                tools:text="@string/genre" />
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/drag_handle"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="50dp"
+            android:src="@drawable/ic_drag_updown_white_24dp" />
+
+
+        <RelativeLayout
+            android:id="@+id/controls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            tools:ignore="UnknownId">
+
+
+
+            <ImageView
+                android:id="@+id/play_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="visible"
+                android:src="@drawable/exo_controls_play" />
+
+            <LinearLayout
+                android:id="@+id/controls_upcoming"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/play_upcoming"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_mini_controller_upcoming_play" />
+
+                <ImageButton
+                    android:id="@+id/stop_upcoming"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_mini_controller_upcoming_stop" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>
+
+
+

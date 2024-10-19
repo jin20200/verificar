@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:clipToPadding="false"
+        >
+
+        <!-- The support CardView adds padding for compat shadows on pre-v21, adjust accordingly. -->
+        <FrameLayout
+            android:id="@+id/cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/itemMovieImage"
+                android:layout_width="150dp"
+                android:layout_height="223dp"
+                android:scaleType="centerInside"
+                />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="223dp"
+                android:background="@drawable/item_recommended_shadow"
+                android:scaleType="centerInside"
+                />
+
+            <TextView
+                android:id="@+id/movie_premuim"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin_20"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/vip"
+                android:paddingStart="4dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="4dp"
+                android:paddingBottom="4dp"
+                android:layout_marginStart="5dp"
+                android:text="VIP"
+                android:visibility="gone"
+                android:layout_gravity="end"
+                android:layout_marginEnd="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/grey_11"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif-black" />
+
+            <TextView
+                android:id="@+id/mgenres"
+                android:textSize="9.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_label"
+                android:paddingLeft="5.0dip"
+                android:layout_marginTop="10dp"
+                android:paddingRight="5.0dip"
+                android:visibility="visible"
+                android:layout_marginStart="0.7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="15.0dip"
+                android:text="genre" />
+
+            <LinearLayout
+                android:id="@+id/hasNewEpisodes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="bottom"
+                android:visibility="gone"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_newepisodes"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:paddingStart="7dp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingEnd="7dp"
+                    android:textStyle="bold"
+                    android:text="NEW EPISODES"
+                    android:radius="3dp"
+                    android:textAllCaps="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="@color/grey_11"
+                    android:textSize="8sp"
+                    app:fontFamily="sans-serif-black"
+                    tools:ignore="SmallSp" />
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/movietitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:maxLength="20"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/grey_20"
+            android:textSize="10sp"
+            android:fontFamily="@font/vaud_light"
+            app:layout_constraintTop_toBottomOf="@id/cardView"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:text="Movie Title" />
+
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:numStars="5"
+            android:rating="4.0"
+            android:scaleX=".9"
+            android:scaleY=".9"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toStartOf="@id/view_movie_rating"
+            app:layout_constraintTop_toBottomOf="@id/movietitle"
+            android:stepSize="0.1"
+            />
+
+
+        <TextView
+            android:id="@+id/view_movie_rating"
+            android:gravity="center"
+            android:paddingStart="7dp"
+            android:paddingEnd="7dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="5dp"
+            android:text="@string/movie_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:fontFamily="@font/vaud_light"
+            app:layout_constraintStart_toEndOf="@+id/rating_bar"
+            app:layout_constraintTop_toBottomOf="@id/movietitle"
+
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

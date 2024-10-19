@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/drawable_circular_live"/>
+    <item
+        android:width="48dp"
+        android:height="48dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Live"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+    </item>
+</layer-list>

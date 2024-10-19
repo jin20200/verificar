@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/play_menu"
+        app:showAsAction="ifRoom"
+        android:title="@string/play"
+        android:icon="@drawable/ic_play"/>
+
+    <item android:id="@+id/report_menu"
+        android:title="@string/report"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_report"/>
+
+    <item android:id="@+id/episode_comments"
+        app:showAsAction="ifRoom"
+        android:title="@string/comments"
+        android:icon="@drawable/ic_comment"/>
+</menu>

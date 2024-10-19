@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layoutDirection="ltr"
+        android:background="@drawable/fragment_shadows_top"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.90"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bt_close"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/ic_close"
+                    android:visibility="visible"
+                    android:contentDescription="@string/image"
+                    app:tint="@color/grey_20" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_below="@+id/LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:background="@drawable/bg_loading_subtitles_accent"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"></RelativeLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/LinearLayout"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="visible">
+
+
+                <LinearLayout
+                    android:id="@+id/linearprogressactive"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="40dp"
+                    android:visibility="visible"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+
+                    <TextView
+                        android:id="@+id/downloadProgres"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:text="Progress..."
+                        android:gravity="center_horizontal"
+                        android:textAllCaps="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="@color/grey_3"
+                        android:textSize="12sp"
+                        app:fontFamily="sans-serif-black" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/downloadProgress"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:visibility="gone"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="40dp"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+
+                    <ProgressBar
+                        android:id="@+id/download_progress_bar_downloading"
+                        android:layout_width="0dp"
+                        android:layout_height="5dp"
+                        android:layout_weight="1"
+                        android:indeterminate="false"
+                        android:visibility="visible"
+                        android:progressDrawable="@drawable/content_detail_progress"
+                        style="@android:style/Widget.ProgressBar.Horizontal" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/updateLinear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="40dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <TextView
+                        android:id="@+id/mailTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:text="Version Update Avalaible"
+                        android:textAllCaps="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="@color/grey_3"
+                        android:textSize="16sp"
+                        app:fontFamily="sans-serif-black" />
+
+                    <TextView
+                        android:id="@+id/update_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:text="update_title"
+                        android:textAllCaps="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="@color/grey_3"
+                        android:textSize="16sp"
+                        app:fontFamily="sans-serif-black" />
+
+                    <TextView
+                        android:id="@+id/custom_alert_text"
+                        style="@style/L_Micro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/vaud_light"
+                        android:gravity="center"
+                        android:text="@string/update_message"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse"
+                        android:textColor="@color/grey_11"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/getUpdateLink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/btn_gradient_white_login"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="40dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="5dp"
+                        android:text="@string/update"
+                        android:visibility="visible"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+
+    <dimen name="cardview_enable_shadow">-10dp</dimen>
+    <dimen name="cardview_disable_shadow">10dp</dimen>
+
+
+    // Margin
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+
+
+    <!--genaral spacing-->
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_small">3dp</dimen>
+
+    // Text Size
+    <dimen name="spacing_large">20dp</dimen>
+    <dimen name="spacing_xlarge">48dp</dimen>
+    <dimen name="pixel_4dp">4.0dip</dimen>
+    <dimen name="pixel_328dp">328.0dip</dimen>
+    <dimen name="pixel_20dp">20.0dip</dimen>
+    <dimen name="pixel_10dp">10.0dip</dimen>
+    <dimen name="spacing_medium">5dp</dimen>
+    <dimen name="spacing_middle">10dp</dimen>
+    <dimen name="spacing_mlarge">20dp</dimen>
+    <dimen name="spacing_xxlarge">50dp</dimen>
+    <dimen name="pixel_15dp">15.0dip</dimen>
+    <dimen name="pixel_16dp">16sp</dimen>
+    <dimen name="pixel_200dp">200.0dip</dimen>
+    <!--genaral spacing-->
+    <dimen name="spacing_xmlarge">40dp</dimen>
+    <dimen name="view_tubi_controller_text_size">13sp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- ShowCaseView -->
+
+    <!-- List widget -->
+
+    <!-- Grids -->
+    <dimen name="grid_leftright_padding">8dp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- Fab button -->
+
+    <!-- Toolbar Padding -->
+
+    <!-- Height of the status bar -->
+
+    <!--
+    Refer to App Widget Documentation for margin information
+    http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_detail_vertical_margin">88dp</dimen>
+
+    <!-- Fab button -->
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="button_elevation">2dp</dimen>
+    <dimen name="button_press_elevation">4dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Toolbar Padding -->
+    <dimen name="tool_bar_top_padding">0dp</dimen>
+
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height">25dp</dimen>
+
+    <!--
+    Refer to App Widget Documentation for margin information
+    http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+
+    <dimen name="min_width_dialog">300dp</dimen>
+    <dimen name="dialog_padding">24dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="list_item_size">56dp</dimen>
+    <dimen name="padding_zero">0dp</dimen>
+
+</resources>

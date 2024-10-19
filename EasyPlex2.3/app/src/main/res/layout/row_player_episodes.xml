@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_marginEnd="10dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/epLayout"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="@dimen/pixel_10dp"
+            android:layout_height="@dimen/pixel_200dp">
+
+            <ImageView
+                android:id="@+id/epcover"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/pixel_200dp"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/pixel_200dp"
+                android:background="@drawable/fragment_shadows"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/image" />
+
+            <ProgressBar
+                android:id="@+id/resume_progress_bar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:layout_alignParentBottom="true"
+                android:indeterminate="false"
+                android:progressDrawable="@drawable/content_detail_progress" />
+
+
+
+            <LinearLayout
+                android:id="@+id/mPlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/spacing_mlarge"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/PlayButtonIcon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/playbutton"
+                    android:contentDescription="@string/image" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/timeRemaning"
+                android:textSize="9.0sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_label"
+                android:paddingLeft="5.0dip"
+                android:paddingBottom="1dp"
+                android:layout_marginTop="10dp"
+                android:paddingRight="5.0dip"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="15.0dip"
+                android:text="85M" />
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:orientation="vertical"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="3dp">
+
+                <TextView
+                    android:id="@+id/epnumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="2dp"
+                    android:text="@string/ep_n"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="@color/grey_11"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/eptitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/spacing_middle"
+                    android:textStyle="bold"
+                    android:text="@string/title"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="@color/grey_11"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/epoverview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/movie_overview_text"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/grey_20"
+                android:textSize="12sp"
+                android:maxLines="3"
+                android:fontFamily="@font/vaud_light" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+</layout>
+
+
+
+

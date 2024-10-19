@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:background="@color/app_background"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/splash_image"
+            android:layout_width="match_parent"
+            android:background="@color/grey_1100"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fragment_shadows"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fragment_shadows"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fragment_shadows"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fragment_shadows"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textViewCheckingAuth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checking_your_login_info"
+            app:layout_constraintBottom_toBottomOf="@+id/loader"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="70dp"
+            android:visibility="gone"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            android:textColor="@color/grey_11" />
+
+        <ProgressBar
+            android:id="@+id/loader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:id="@+id/code_access_enable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/tubi_tv_controller_guideline_bottom"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/tubi_tv_controller_guideline_right"
+            app:layout_constraintTop_toTopOf="@id/tubi_tv_controller_guideline_top"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:padding="50dp">
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spacing_large" />
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spacing_mlarge" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_password_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_marginBottom="40dp"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/main_color">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:hint="@string/password"
+                    android:maxLines="1"
+                    android:paddingStart="20dp"
+                    android:textColor="@color/grey_11"
+                    android:textSize="14sp"
+                    android:paddingEnd="@dimen/pixel_20dp"
+                    android:background="@drawable/btn_gradient_second_selected"
+                    android:layout_marginStart="10dp"
+                    android:theme="@style/EditText.Orange" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spacing_middle" />
+
+
+            <Button
+                android:id="@+id/btn_enter_password_access"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="@dimen/pixel_15dp"
+                android:background="@drawable/btn_gradient_white_login"
+                android:text="@string/enter"
+                android:layout_marginBottom="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/text_get_code"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="@dimen/pixel_15dp"
+                android:background="@drawable/btn_gradient_second_selected"
+                android:text="@string/get_password"
+                android:layout_marginBottom="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/form_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/tubi_tv_controller_guideline_bottom"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/tubi_tv_controller_guideline_right"
+            app:layout_constraintTop_toTopOf="@id/tubi_tv_controller_guideline_top"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:padding="50dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/logo_image_top"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="@string/image" />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spacing_large" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spacing_large" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:imeOptions="actionNext"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/grey_11"
+                    android:textSize="14sp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="@dimen/pixel_20dp"
+                    android:background="@drawable/btn_gradient_second_selected"
+                    android:layout_marginStart="10dp"
+                    android:theme="@style/EditText.Orange" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spacing_mlarge" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_marginBottom="40dp"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/main_color">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:hint="@string/password"
+                    android:maxLines="1"
+                    android:paddingStart="20dp"
+                    android:textColor="@color/grey_11"
+                    android:textSize="14sp"
+                    android:paddingEnd="@dimen/pixel_20dp"
+                    android:background="@drawable/btn_gradient_second_selected"
+                    android:layout_marginStart="10dp"
+                    android:theme="@style/EditText.Orange" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spacing_middle" />
+
+
+
+            <LinearLayout
+                android:id="@+id/btn_login"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="15dp"
+                android:background="@drawable/btn_gradient_white_login"
+                android:paddingEnd="15dp"
+                android:focusable="true"
+                android:gravity="start|center">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:text="@string/login"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    android:textColor="@color/black"
+                    android:layout_gravity="start|center" />
+            </LinearLayout>
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp" />
+
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_button"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:id="@+id/btn_skip"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_gradient_second_selected"
+                android:paddingEnd="15dp"
+                android:focusable="true"
+                android:clickable="true"
+                android:gravity="start|center">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:text="@string/skip"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    android:textColor="@color/white"
+                    android:layout_gravity="start|center" />
+            </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btn_facebook"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/selected_white_login"
+                android:focusable="true"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:nextFocusLeft="@+id/fading_edge_layout2"
+                android:nextFocusDown="@+id/fading_edge_layout2"
+                android:orientation="horizontal"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp">
+
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:contentDescription="@string/image"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_glyph_brands_facebook_f"
+
+                    app:layout_constraintEnd_toStartOf="@id/tubi_tv_controller_guideline_right"
+                    app:layout_constraintTop_toTopOf="@+id/tubi_tv_controller_guideline_top"
+                    app:tint="@color/blue" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/btn_google"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/selected_white_login"
+                android:focusable="true"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:nextFocusLeft="@+id/fading_edge_layout2"
+                android:nextFocusDown="@+id/fading_edge_layout2"
+                android:orientation="horizontal"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp">
+
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:contentDescription="@string/image"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_glyph_brands_google"
+                    app:layout_constraintEnd_toStartOf="@id/tubi_tv_controller_guideline_right"
+                    app:layout_constraintTop_toTopOf="@+id/tubi_tv_controller_guideline_top"
+                    app:tint="@color/tt_skip_red" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/go_to_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signup"
+                    android:layout_marginTop="10dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey_11" />
+
+
+                <TextView
+                    android:id="@+id/forget_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forget"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey_11" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/tubi_tv_controller_guideline_bottom"
+            app:layout_constraintRight_toLeftOf="@id/tubi_tv_controller_guideline_right"
+            app:layout_constraintLeft_toLeftOf="@id/tubi_tv_controller_guideline_left"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/copyright"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/grey_40" />
+
+
+        </LinearLayout>
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/tubi_tv_controller_guideline_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="32dp" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/tubi_tv_controller_guideline_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="@dimen/pixel_20dp" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/tubi_tv_controller_guideline_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="@dimen/pixel_20dp" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/tubi_tv_controller_guideline_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_end="@dimen/pixel_20dp" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/tubi_tv_controller_guideline_seek_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="84dp" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/tubi_tv_controller_guideline_seek_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="84dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

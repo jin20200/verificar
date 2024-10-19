@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="controller"
+            type="com.easyplexdemoapp.util.LoadingStateController" />
+    </data>
+
+
+    <FrameLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fragment_content_detail_overlay_end"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:background="#272e3a"
+                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                    app:contentInsetStartWithNavigation="0dp"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/et_search"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:autofillHints=""
+                            android:background="#272e3a"
+                            android:freezesText="true"
+                            android:hint="@string/search_movies_series"
+                            android:imeOptions="actionSearch|flagNoExtractUi"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColorHint="#808080"
+                            android:textCursorDrawable="@drawable/cursor_green"
+                            android:textSize="14sp"
+                            android:inputType="textAutoComplete">
+
+                            <requestFocus />
+
+                        </EditText>
+
+                        <ImageButton
+                            android:id="@+id/bt_clear"
+                            android:layout_width="?attr/actionBarSize"
+                            android:layout_height="?attr/actionBarSize"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="@string/image"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/ic_close"
+                            app:tint="@android:color/white" />
+
+                        <ProgressBar
+                            android:id="@+id/progress_bar"
+                            style="@android:style/Widget.Material.ProgressBar.Small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/pixel_15dp"
+                            android:indeterminateTint="@color/golden_gate"
+                            />
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+                </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:scrollbars="none"
+                android:scrollingCache="true">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/noResults"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+
+                        <TextView
+                            android:id="@+id/movietitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/oh_darn_we_don_t_have_that"
+                            android:textAllCaps="true"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                            android:textColor="@color/grey_11"
+                            android:textSize="20sp"
+                            app:fontFamily="sans-serif-black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/try_searching_for_another_movie_show"
+                            android:textColor="@color/grey_40"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/linear_movies"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        tools:ignore="UseCompoundDrawables">
+
+
+                        <ImageView
+                            android:layout_width="5dp"
+                            android:layout_height="@dimen/pixel_20dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/row"
+                            android:backgroundTint="@color/golden_gate"
+                            android:contentDescription="@string/image" />
+
+                        <TextView
+                            android:id="@+id/titlesResult"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_weight="1"
+                            android:text="@string/movies_amp_series"
+                            android:textAllCaps="true"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                            android:textColor="@color/grey_11"
+                            android:textSize="@dimen/pixel_16dp"
+                            app:fontFamily="sans-serif-black"
+
+                            tools:ignore="AllCaps" />
+
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/search_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        >
+
+
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_search"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="@dimen/padding_10"
+                            android:layout_marginEnd="@dimen/padding_10"
+                            android:layout_marginBottom="120dp"
+                            android:scrollbars="vertical"
+                            android:scrollingCache="true" />
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/linear_genres"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        tools:ignore="UseCompoundDrawables">
+
+
+
+                        <ImageView
+                            android:layout_width="5dp"
+                            android:layout_height="@dimen/pixel_20dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/row"
+                            android:backgroundTint="@color/golden_gate"
+                            android:contentDescription="@string/image" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_weight="1"
+                            android:text="@string/genre"
+                            android:textAllCaps="true"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                            android:textColor="@color/grey_11"
+                            android:textSize="@dimen/pixel_16dp"
+                            app:fontFamily="sans-serif-black"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_genres"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scrollbars="vertical"
+                        android:layout_marginStart="@dimen/padding_10"
+                        android:layout_marginEnd="@dimen/padding_10"
+                        tools:listitem="@layout/row_discover_style"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="120dp"
+                        android:paddingBottom="10dp"
+                        android:scrollingCache="true" />
+
+
+                    <LinearLayout
+                        android:id="@+id/linear_suggested"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        tools:ignore="UseCompoundDrawables">
+
+
+
+                        <ImageView
+                            android:layout_width="5dp"
+                            android:layout_height="@dimen/pixel_20dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/row"
+                            android:backgroundTint="@color/golden_gate"
+                            android:contentDescription="@string/image" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_weight="1"
+                            android:text="@string/suggested_programmes"
+                            android:textAllCaps="true"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                            android:textColor="@color/grey_11"
+                            android:textSize="@dimen/pixel_16dp"
+                            app:fontFamily="sans-serif-black"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_suggested"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scrollbars="vertical"
+                        android:layout_marginStart="@dimen/padding_10"
+                        android:layout_marginEnd="@dimen/padding_10"
+                        android:layout_marginBottom="120dp"
+                        android:paddingBottom="10dp"
+                        android:scrollingCache="true" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lyt_suggestion"
+            android:layout_width="match_parent"
+            android:layout_marginTop="55dp"
+            android:background="#272e3a"
+            android:alpha="0.9"
+            android:layout_height="match_parent"
+            android:visibility="@{controller.isSuggestionsExpanded ? View.VISIBLE : View.GONE}"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/bt_close"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_gravity="end"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/ic_close"
+                android:visibility="@{controller.isSuggestionsExpanded ? View.VISIBLE : View.GONE}"
+                android:contentDescription="@string/image"
+                app:tint="@color/grey_20" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerSuggestion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#272e3a"
+                android:visibility="visible"
+                android:scrollbars="none"
+                android:scrollingCache="true" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</layout>

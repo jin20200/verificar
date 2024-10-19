@@ -1,0 +1,911 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:ns0="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <string name="facebook_app_id" translatable="false">590451789066119</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb590451789066119</string>
+
+    
+    <string name="movie_original_label" translatable="false">Film</string>
+    <string name="movie_release_label" translatable="false">Datum izlaska</string>
+    <string name="movie_genres_text" translatable="false">Triler, Akcija, Naučna fantastika</string>
+    <string name="movie_overview_label" translatable="false">Sinopsis</string>
+    <string name="movie_overview_text" translatable="false">Desetogodišnja devojčica zaluta daleko od svojih roditelja stazom koja vodi do sveta koji vladaju čudna i neobična stvorenja poput čudovišta. Njeni roditelji su pretvoreni u svinje zajedno s drugima u kupatilu punom ovih stvorenja. Hoće li ikada ponovo videti svet onakvim kakav je nekada bio?</string>
+    <string name="movie_cast_label">Glumačka postava</string>
+
+    
+    <string name="home">Početna</string>
+
+    
+    <string name="resume">Nastavi</string>
+    <string name="settings">Postavke</string>
+    <string name="discover">Otkrij</string>
+    <string name="library">Biblioteka</string>
+    <string name="upcoming">Nadolazeće</string>
+    <string name="streaming">Prenos uživo</string>
+    <string name="live_text">UŽIVO</string>
+    <string name="share_msg">Pozdrav, želim da podelim s tobom ovaj medij pod nazivom </string>
+    <string name="about_wifi_warning">Izabrali ste reprodukciju samo putem Wi-Fi mreže. Idite na Postavke aplikacije da biste promenili.</string>
+    <string name="about_no_stream_download">Nema dostupnog preuzimanja za ovaj film. Proverite kasnije.</string>
+    <string name="about_no_stream_download_episode">Nema dostupnog preuzimanja za ovu epizodu. Proverite kasnije.</string>
+    <string name="about_no_stream">Nema dostupnog strimovanja za ovaj film. Proverite kasnije.</string>
+    <string name="ep_n" translatable="false">EP N</string>
+    <string name="about_error_login">Pogrešno korisničko ime ili lozinka. Molimo vas da se ponovo prijavite.</string>
+    <string name="err_email">E-pošta mora biti ispravna adresa e-pošte.</string>
+    <string name="err_name">Polje za ime je obavezno.</string>
+    <string name="err_password">Lozinka mora imati najmanje 6 karaktera.</string>
+    <string name="controller_time_position_text_default" translatable="false">00:00:00</string>
+    <string name="no_media_error_message" translatable="false">MediaModel mora biti prosleđen u nameru prilikom pokretanja aktivnosti za reprodukciju medija.</string>
+    <string name="commercial" translatable="false">Reklama</string>
+    <string name="movies_amp_series" translatable="false">FILMOVI I Serije</string>
+    <string name="title">NASLOV</string>
+    <string name="genre">Žanr</string>
+    <string name="play_trailer">Reprodukuju trejler</string>
+    <string name="release_date">DATUM IZLASKA</string>
+    <string name="seasons_8" translatable="false">Sezone: 8</string>
+    <string name="synopsis">Sinopsis</string>
+    <string name="details">Detalji</string>
+    <string name="starring">Uloge</string>
+    <string name="seasons">Sezone</string>
+    <string name="search_movies_series">Pretraži filmove, serije, anime, prenose…</string>
+    <string name="no_relateds_movies_found">Nisu pronađeni povezani filmovi</string>
+    <string name="no_list_result">Vaša lista favorita je prazna</string>
+    <string name="list_add_later">Dodajte neke stavke da biste ih pronašli kasnije</string>
+    <string name="premuim">Premium</string>
+    <string name="already_have_an_account">Već imate nalog?</string>
+    <string name="password">Lozinka</string>
+    <string name="email">E-pošta</string>
+    <string name="name">Ime</string>
+    <string name="register">R E G I S T R U J T E</string>
+    <string name="update_profile">A Ž U R I R A J</string>
+    <string name="copyright">Autorsko pravo © 2024 EASYPLEX. Sva prava zadržana.</string>
+    <string name="image">Slika</string>
+    <string name="start_watching">POČNI SA GLEDANJEM</string>
+    <string name="register_sucess">Registracija je uspešna</string>
+    <string name="recommended_for_you">PREPORUČUJEMO ZA VAS</string>
+    <string name="streaming_home">PRENOS UŽIVO</string>
+    <string name="trending_now">TRENDOVI SADA</string>
+    <string name="new_releases">NOVI IZDANJA</string>
+    <string name="popular_series">POPULARNE SERIJE</string>
+    <string name="latest_series">NAJNOVIJE SERIJE</string>
+    <string name="new_this_week">NOVO OVE NEDELJE</string>
+    <string name="latest_animes">NAJNOVIJI ANIMIJI</string>
+    <string name="most_popular">Najpopularnije</string>
+    <string name="auth_name" translatable="false">Ime za autentifikaciju</string>
+    <string name="user_EasyPlex_com" translatable="false">korisnik@EasyPlex.com</string>
+    <string name="free">Besplatno</string>
+    <string name="allow_notifications">Dozvoli obaveštenja</string>
+    <string name="wi_fi_only">Samo Wi-Fi</string>
+    <string name="auto_play">Automatsko reprodukovanje</string>
+    <string name="substitle_size">Veličina titlova</string>
+    <string name="current_aspect_ratio">Trenutni odnos stranica: %s</string>
+    <string name="current_size">Trenutna veličina</string>
+    <string name="current_background">Trenutna boja pozadine</string>
+    <string name="clear_my_list">Obriši moju listu</string>
+    <string name="clear_history">Da li zaista želite da obrišete istoriju?</string>
+    <string name="clear_cache_msg">Ovo će obrisati keširane podatke za ovu aplikaciju!</string>
+    <string name="clear_cache">Obriši keš</string>
+    <string name="about_us">O nama</string>
+    <string name="confirm">Potvrdi</string>
+    <string name="trailer_loading">Učitavanje trejlera</string>
+    <string name="genres_list_is_empty">Lista žanrova je prazna</string>
+    <string name="episodes">Epizode</string>
+    <string name="next_episode">Sledeća epizoda</string>
+    <string name="check_later">Proveri kasnije</string>
+    <string name="privacy_amp_policy">Privatnost i politika</string>
+    <string name="decilne">ODBACI</string>
+    <string name="accept">PRIHVATI</string>
+    <string name="relateds">Povezani</string>
+    <string name="substitles">Titlovi</string>
+    <string name="login">P R I J A V A</string>
+    <string name="skip">PRESKOČI</string>
+    <string name="signup">REGISTRUJ SE ZA NALOG?</string>
+    <string name="forget">Zaboravljena lozinka?</string>
+    <string name="no_upcoming_movies_added">Nema dodatih nadolazećih filmova</string>
+    <string name="no_download_movies_added">Nema dodatih preuzimanja</string>
+    <string name="this_content_if_only_for_vip">Ovaj sadržaj je dostupan samo za VIP korisnike</string>
+    <string name="sorry">ŽAO NAM JE!</string>
+    <string name="back">NAZAD</string>
+    <string name="ad">Oglas</string>
+    <string name="please_try_another_genre">Molimo vas da probate drugi žanr.</string>
+    <string name="try_searching_for_another_movie_show">Pokušajte pretražiti drugi film, emisiju</string>
+    <string name="oh_darn_we_don_t_have_that">O, prokletstvo. To nemamo</string>
+    <string name="edit_profile">Izmeni profil</string>
+    <string name="support">PODRŠKA</string>
+    <string name="thank_you">Hvala vam!</string>
+    <string name="the_transaction_was_successful">Transakcija je uspešna</string>
+    <string name="status">status</string>
+    <string name="id" translatable="false">ID</string>
+
+    <string name="AGREE">SAGLASAN</string>
+    <string name="DISAGREE">NESAGLASAN</string>
+
+    
+    <string name="movie_rating" translatable="false">8.5</string>
+    <string name="try_easyplex_vip">Pretplatite se od danas</string>
+    <string name="watch_video_ads_to_unlock">Otključajte strim</string>
+    <string name="subscribe_now">PRETPLATI SE SADA</string>
+    <string name="disable_player_ads">Isključi oglase igrača</string>
+    <string name="turn_off_ads_banner_interstitial_ads">Isključi oglase (Banner, Interstitial oglasi)</string>
+    <string name="play_premium_content_without_restrictions">Reprodukuju premium sadržaj bez ograničenja</string>
+    <string name="download_premium_content">Preuzmi premium sadržaj</string>
+    <string name="vip_features">Sa VIP-om. Gledajte hiljade emisija i filmova, sa planovima koji počinju od 2.99 dolara/mesec.</string>
+    <string name="custom_text_here">Prilagođeni tekst ovde</string>
+    <string name="update_message">poruka o ažuriranju</string>
+    <string name="version_2_0">Verzija 2.0</string>
+    <string name="update">Ažuriranje</string>
+
+    
+    <string name="subscribe">PRETPLATI SE</string>
+    <string name="payment_failed_please_try_again">Plaćanje neuspešno – molimo vas pokušajte ponovo</string>
+    <string name="valid_until" translatable="false">Važi do: 20.09.2020</string>
+    <string name="cancel_subscription">Otkaži pretplatu</string>
+    <string name="track_selection_title">Izaberi staze</string>
+    <string name="cant_show">Ne mogu prikazati nagrađeni video</string>
+    <string name="continue_watching">Nastavi gledanje</string>
+    <string name="continue_watching_profile">Nastavi gledanje za</string>
+    <string name="clear_watch_history">Obriši istoriju gledanja</string>
+    <string name="media_route_menu_title">Bacanje</string>
+    <string name="play_media_as_embed">Reprodukuju medij kao ugradnju</string>
+    <string name="audio">Audio</string>
+    <string name="media_otpions">Opcije medija</string>
+    <string name="sort_by">Sortiraj po</string>
+    <string name="navigation_drawer_open">Otvori navigacioni panel</string>
+    <string name="navigation_drawer_close">Zatvori navigacioni panel</string>
+    <string name="suggestions">Predlozi</string>
+    <string name="privacy_policy">Pravila privatnosti</string>
+    <string name="latest_channels">Najnoviji kanali</string>
+    <string name="downloads">Preuzimanja</string>
+    <string name="if_you_re_having_audio_problems_enable_this_option">Ako imate problema sa zvukom, omogućite ovu opciju da biste podržali više audio formata.</string>
+    <string name="are_you_sure_to_delete_from_your_watching_history">Da li ste sigurni da želite da izbrišete </string>
+    <string name="report_broken_link">Prijavi prekinutu vezu</string>
+    <string name="movies">Filmovi</string>
+    <string name="series">Serije</string>
+    <string name="animes">Animacije</string>
+    <string name="version">EASYPLEX: %1$s</string>
+    <string name="introducing_cast">Predstavljanje EasyPlex Cast</string>
+    <string name="sorry_this_content_is_only_available_for_easyplex_vip_users">Žao nam je, ovaj sadržaj je dostupan samo za VIP korisnike</string>
+    <string name="app_id" translatable="false">CC1AD845</string>
+    <string name="action_settings">Postavke</string>
+    <string name="error">Greška</string>
+    <string name="about_app">O EasyPlex</string>
+
+
+    
+    <string name="oops">Ups</string>
+
+    
+    <string name="prefs_header_application">Ponašanje aplikacije</string>
+    <string name="prefs_header_application_summary">Kontrolišite kako se aplikacija ponaša na TV-u</string>
+    <string name="prefs_volume_title">Dodela zvuka</string>
+    <string name="prefs_volume_title_summary">Kontroliše %1$s</string>
+    <string name="prefs_volume_dialog_title">Dodela zvuka</string>
+    <string name="prefs_volume_default">uređaj</string>
+
+    
+    <string name="show_queue">Prikaži red čekanja</string>
+    <string name="queue_list">Red čekanja</string>
+    <string name="queue_tag_item">stavka-reda-čekanja</string>
+    <string name="play_now">Reprodukuje sada</string>
+    <string name="play_next">Reprodukuje sledeće</string>
+    <string name="add_to_queue">Dodaj u red čekanja</string>
+    <string name="action_clear_queue">Obriši red čekanja</string>
+    <string name="queue_item_added_to_play_next">Stavka je dodata za reprodukciju sledeće</string>
+    <string name="queue_item_added_to_queue">Stavka je dodata u red čekanja</string>
+    <string name="select_quality">Izaberi kvalitet izvora</string>
+    <string name="download_for">Preuzmi za </string>
+    <string name="has_started">je počela…</string>
+
+    
+
+    
+    <string name="applovin" translatable="false">AppLovin</string>
+
+    
+    <string name="appnext" translatable="false">AppNext</string>
+
+    
+    <string name="ironsource" translatable="false">Ironsource</string>
+
+    
+    <string name="vungle" translatable="false">Vungle</string>
+
+    
+    <string name="startapp" translatable="false">StartApp</string>
+
+    
+    <string name="unityads" translatable="false">UnityAds</string>
+
+    
+    <string name="admob" translatable="false">Admob</string>
+
+    
+    <string name="appodeal" translatable="false">Appodeal</string>
+
+    
+    <string name="facebook" translatable="false">Facebook</string>
+
+    
+    <string name="auto" translatable="false">Auto</string>
+
+    
+    <string name="wortise" translatable="false">Wortise</string>
+
+    <string name="autoplay_on">Auto reprodukcija je uključena</string>
+    <string name="autoplay_off">Auto reprodukcija je isključena</string>
+    <string name="has_been_started">je počela…</string>
+    <string name="unable_cast">Nemogućnost povezivanja sa uređajem za reprodukciju</string>
+    <string name="ready_5sec">će biti spremna za 5 sekundi</string>
+    <string name="select_subs">Izaberi titl</string>
+    <string name="video_qualities">Kvaliteti videa</string>
+    <string name="aspect_ratio">Odnos stranica</string>
+    <string name="current_aspect">Trenutni odnos stranica</string>
+
+    
+    <string name="playback_setting_speed_title">Brzina reprodukcije</string>
+
+    
+    <string name="playback_speed_a_quarter" translatable="false">0,25x</string>
+    <string name="playback_speed_a_half" translatable="false">0,5x</string>
+    <string name="playback_speed_three_quarter" translatable="false">0,75x</string>
+    <string name="playback_speed_normal">Normalna</string>
+    <string name="playback_speed_one_and_a_quarter" translatable="false">1,25x</string>
+    <string name="playback_speed_one_and_a_half" translatable="false">1,5x</string>
+    <string name="playback_speed_one_and_three_quarter" translatable="false">1,75x</string>
+    <string name="playback_speed_two" translatable="false">2x</string>
+    <string name="up_next">Sledi za: </string>
+    <string name="empty_queue">Przak red čekanja</string>
+    <string name="lecture">Gledaj sada</string>
+    <string name="vip">VIP</string>
+    <string name="are_you_sure_you_want_to_cancel_your_subscription">Da li ste sigurni da želite da otkažete pretplatu?</string>
+    <string name="write_something">Napiši nešto…</string>
+    <string name="mylist">Moja lista</string>
+    <string name="plan_name">IME</string>
+    <string name="player_default">podrazumevano</string>
+    <string name="player_43" translatable="false">4:3</string>
+    <string name="player_169" translatable="false">16:9</string>
+    <string name="player_fullscreen">prikaz na celom ekranu</string>
+    <string name="player_room">Zoom</string>
+    <string name="restart">Restart</string>
+    <string name="source_quality">Izaberi kvalitet izvora</string>
+    <string name="lists_movies">Liste filmova</string>
+    <string name="lists_series">Liste serija</string>
+    <string name="lists_animes">Liste animea</string>
+    <string name="lists_streaming">Liste strimovanja</string>
+    <string name="from_history"> iz vaše istorije gledanja?</string>
+    <string name="unable_to_get_genres">Nemogućnost dobijanja liste žanrova</string>
+    <string name="views">pogledi: </string>
+    <string name="latest_episodes">NAJNOVIJE EPIZODE SERIJA</string>
+    <string name="latest_episodes_animes">NAJNOVIJE EPIZODE ANIMEA</string>
+    <string name="latest_movies_amp_series" translatable="false">VRHUNSKI SADRŽAJ</string>
+    <string name="player_substitles">Titlovi…</string>
+    <string name="add_to_my_list_player">Dodaj na moju listu</string>
+    <string name="select_subs_player">Izaberi titlove..</string>
+    <string name="choosed_for_you">Izabrano za vas</string>
+    <string name="skip_recap">SKIP UVOD</string>
+    <string name="resumes">Nastavi</string>
+    <string name="select_qualities">Izaberi kvalitet</string>
+    <string name="suggested_programmes">Predloženi programi</string>
+    <string name="speed_normal">Normalna</string>
+    <string name="choose_your_launch_player">Izaberite svoj plejer</string>
+    <string name="my_downloads">PREUZIMANJA</string>
+    <string name="loading_rewards">Učitavanje nagrade</string>
+    <string name="icon_desc" translatable="false">Ikona oglasa</string>
+    <string name="image_desc" translatable="false">Slika oglasa</string>
+    <string name="sponsored">Sponzorisano</string>
+    <string name="not_found_series">Serija nije pronađena u našoj bazi podataka!</string>
+    <string name="from_your_history">iz vaše istorije gledanja?</string>
+    <string name="sub_setting_clear_cache_start">Oslobodi </string>
+    <string name="sub_setting_clear_cache_end">prostora</string>
+    <string name="servers">Serveri</string>
+    <string name="captions_built_in">Titlovi (Ugrađeni)</string>
+    <string name="playback_speed">Brzina reprodukcije</string>
+    <string name="external_players">Spoljni plejeri</string>
+    <string name="choose_downloads_options">Izaberite opcije preuzimanja</string>
+    <string name="current_localtion">Trenutna lokacija:</string>
+    <string name="pinned">ZAKAČENO</string>
+    <string name="grant">ODOBRI</string>
+    <string name="storage_warning">Dozvola za pristup skladištu nije data</string>
+    <string name="history_cleared">Istorija je očišćena!</string>
+    <string name="nothing_selected">Ništa nije izabrano</string>
+    <string name="need_storage_permission">" potrebna je dozvola za pristup skladištu kako bi se prikazala lista datoteka"</string>
+    <string name="new_episodes">NOVE EPIZODE</string>
+    <string name="successful_payment">Uspesno plaćanje</string>
+    <string name="please_press_to_close_this_page">Molimo vas da pritisnete da biste zatvorili ovu stranicu</string>
+    <string name="networks">Mreže</string>
+    <string name="networks_list_is_empty">Lista mreža je prazna</string>
+    <string name="actress">Glumica</string>
+    <string name="actor">Glumac</string>
+    <string name="suggest_success">Vaši predlozi su uspešno poslati</string>
+    <string name="yobex">https://codecanyon.net/user/yobex</string>
+    <string name="play_something">Pusti nešto</string>
+    <string name="vpn_message">Koristite VPN, isključite ga da biste nastavili…!</string>
+    <string name="sniffer_message">Ne možete pokrenuti bilo koji snifer dok je aplikacija u toku!</string>
+    <string name="pay_with_razorpay">Plati putem RazorPay-a</string>
+    <string name="pay_with_pagseguro">Plati putem PagSeguro-a</string>
+    <string name="by_tapping_the_button_you_agree_to_easyplex_term_amp_condition_and_privacy_policy">Dodirom na dugme, saglasni ste sa Uslovima korišćenja i Politikom privatnosti EasyPlex-a</string>
+    <string name="login_to_subscribe">Prvo se prijavite da biste mogli da se pretplatite</string>
+    <string name="check_your_inbox">Proverite svoj inbox</string>
+    <string name="resend_token">Ponovno pošalji token</string>
+    <string name="your_email_is_not_verified">Vaša email adresa nije potvrđena!</string>
+    <string name="verify_email_address">Potvrdi email adresu</string>
+    <string name="suggestions_is_only_for_logged_users">Predlozi su dostupni samo za prijavljene korisnike</string>
+    <string name="popular_casters">POPULARNI KASTERI</string>
+    <string name="casters">Kasteri</string>
+    <string name="watch_live_streaming">Gledajte uživo strimovanje</string>
+    <string name="rooted_message">Ne možete pokrenuti aplikaciju na uređaju sa root pristupom!</string>
+    <string name="download_disabled">Sistem za preuzimanje je trenutno onemogućen</string>
+    <string name="all_genres">Svi žanrovi</string>
+    <string name="latest_added">Najnovije dodato</string>
+    <string name="by_rating">Po ocenama</string>
+    <string name="by_year">Po godini</string>
+    <string name="by_views">Po pregledima</string>
+    <string name="cannot_extract">Nemogućnost izdvajanja videa iz medija</string>
+    <string name="ok">OK</string>
+    <string name="root_warning">Ne možete pokrenuti aplikaciju na uređaju sa root pristupom!</string>
+    <string name="cannot_load_subs">Nemogućnost učitavanja titlova…</string>
+    <string name="free_episodes">Besplatne epizode</string>
+    <string name="from_your_lists">iz vaših lista?</string>
+    <string name="enable_ffmpeg_extension">Omogući FFmpeg ekstenziju</string>
+    <string name="enable_software_codec">Omogući softverski kodek</string>
+    <string name="download_location">Lokacija preuzimanja</string>
+    <string name="current_location">Trenutna lokacija:</string>
+    <string name="substitles_background">Pozadina titlova</string>
+    <string name="reset_your_password">Resetujte svoju šifru</string>
+    <string name="send_reset_token">Pošalji token za resetovanje</string>
+    <string name="msg_to_confirm">Proverite svoj inbox ili spam folder, možete pritisnuti restart kada završite sa potvrdom!</string>
+
+    <string name="foreground_notification">Notifikacija u prvom planu</string>
+    <string name="download_running">U toku</string>
+    <string name="finished">Završeno</string>
+    
+    <string name="elapsed_time_format_d_h_mm">%1$d d. %2$d h. %3$d m</string>
+    
+    <string name="elapsed_time_format_h_mm_ss">%1$d h. %2$d m. %3$d s</string>
+    
+    <string name="elapsed_time_format_mm_ss">%1$d m. %2$d s</string>
+    
+    <string name="elapsed_time_format_ss">%1$d s</string>
+    <string name="cancel">Otkaži</string>
+    
+    <string name="unmetered_connections_only">Samo neograničene veze</string>
+    <string name="connect">Poveži</string>
+    <string name="add">Dodaj</string>
+    <string name="not_available">Nije dostupno</string>
+    <string name="open_navigation_drawer">Otvori navigacioni panel</string>
+    <string name="close_navigation_drawer">Zatvori navigacioni panel</string>
+    <string name="error_template">Greška: %1$s</string>
+    <string name="pause">Pauziraj</string>
+    <string name="stop">Zaustavi</string>
+    <string name="stopped">Zaustavljeno</string>
+    <string name="pending">Na čekanju</string>
+    <string name="delete">Obriši</string>
+    <string name="share">Podeli</string>
+    <string name="menu">Meni</string>
+    <string name="select_all">Izaberi sve</string>
+    <string name="share_via">Podeli putem</string>
+    <string name="no">Ne</string>
+    <string name="yes">Da</string>
+    <string name="file">Fajl</string>
+    <string name="folder">Folder</string>
+    <string name="downloading_metadata">Preuzimanje metapodataka</string>
+    <string name="all">Svi</string>
+    <string name="search">Pretraga</string>
+    <string name="about">O aplikaciji</string>
+    <string name="close">Zatvori</string>
+    <string name="redownload">Ponovno preuzmi</string>
+    <string name="Default">Podrazumevano</string>
+    <string name="warning">Upozorenje</string>
+    <string name="apply">Primeni</string>
+    <string name="report">Prijavi</string>
+    <string name="more_details">Više detalja</string>
+    <string name="clipboard">Klipbord</string>
+    <string name="verify">Proveri</string>
+
+
+    
+    <string name="perm_denied_title">Dozvola odbijena</string>
+    <string name="perm_denied_warning">Bez ove dozvole, aplikacija ne može sačuvati datoteke u memoriji na nekim uređajima i verzijama Android-a. Aplikacija neće pravilno raditi. Da li ste sigurni da želite odbiti ovu dozvolu?</string>
+
+    
+    <string name="download_ticker_notify">Preuzimanje %1$s</string>
+
+    
+    <string name="app_running_in_the_background">Easyplex Preuzimanja se izvršava u pozadini</string>
+    <string name="pause_all">Pauziraj sve</string>
+    <string name="resume_all">Nastavi sve</string>
+
+    
+    <string name="download_finished_notify">Preuzimanje završeno</string>
+    <string name="open_using">Otvori pomoću</string>
+
+    
+    <string name="download_in_queue_ticker_notify">%1$s u redu</string>
+    <string name="waiting_for_network">Čeka se na mrežu</string>
+    <string name="waiting_for_retry">Čeka se na ponovni pokušaj</string>
+
+    
+    <string name="download_error_notify_title">Greška u preuzimanju</string>
+
+    
+    <string name="applying_params_title">Primenjivanje parametara</string>
+    <string name="applying_params_for_downloads">Primenjivanje parametara za preuzimanje</string>
+    <string name="applying_params_error_title">Greška prilikom primene parametara za %1$s</string>
+
+    
+    <string name="add_download">Dodaj preuzimanje</string>
+    <string name="download_link">Link</string>
+    <string name="download_name">Ime</string>
+    <string name="download_size">Veličina: %1$s</string>
+    <string name="download_retry">Ponovi</string>
+    <string name="download_advanced">Napredno</string>
+    <string name="download_user_agent">Korisnički agent</string>
+    <string name="download_error_empty_link">Molimo unesite link</string>
+    <string name="download_error_empty_name">Molimo unesite ime</string>
+    <string name="download_error_no_enough_free_space">Nema dovoljno slobodnog prostora: %1$s slobodno, ali veličina datoteke je %2$s</string>
+    <string name="download_error_name_is_not_correct">Ispravno ime je „%1$s“</string>
+    <string name="fetch_error_default_fmt">Greška: %1$s</string>
+    <string name="fetch_error_invalid_url">Nevažeći URL: %1$s</string>
+    <string name="fetch_error_network_disconnected">mreža je isključena</string>
+    <string name="fetch_error_http_response">Greška: server je vratio HTTP kod %1$d</string>
+    <string name="fetch_error_io">IO greška: %1$s</string>
+    <string name="unable_to_open_folder">Nemoguće otvoriti odabrani folder. Pokušajte odabrati drugi folder</string>
+    <string name="unable_to_create_file">Nemoguće kreirati datoteku. Pokušajte odabrati drugi folder</string>
+    <string name="partial_download_not_supported">Ovo preuzimanje ne podržava pauzu i preuzimanje po delovima</string>
+    <string name="download_pieces_number_title">Broj delova</string>
+    <string name="download_description">Opis</string>
+    <string name="select_folder_to_save">Odaberite folder za čuvanje</string>
+    <string name="path">Putanja</string>
+    <string name="storage_free_space">Slobodnog prostora: %1$s</string>
+    <string name="add_download_error_invalid_url">Nemoguće dodati preuzimanje: nevažeći URL</string>
+    <string name="checksum">Provera suma</string>
+    <string name="add_dialog_checksum_description">MD5, SHA-256</string>
+    <string name="referer_description">%1$s zaglavlje</string>
+    <string name="error_invalid_checksum">Nevažeća provera suma</string>
+
+    
+    <string name="dialog_add_user_agent_title">Dodaj korisnički agent</string>
+
+    
+    <string name="fragment_title_queued">U redu</string>
+    <string name="fragment_title_completed">Završeno</string>
+    <string name="download_list_empty">Nema preuzimanja</string>
+    <string name="share_url">Podeli URL</string>
+    <string name="file_not_available">datoteka nije dostupna!</string>
+    <plurals name="unable_sharing">
+        <item quantity="one">Datoteka se ne može podeliti.</item>
+        <item quantity="other">Datoteke se ne mogu podeliti.</item>
+    </plurals>
+    
+    
+    <string name="drawer_category">Kategorija</string>
+    <string name="drawer_category_others">Ostalo</string>
+    <string name="drawer_category_documents">Dokumenti</string>
+    <string name="drawer_category_images">Slike</string>
+    <string name="drawer_category_video">Video</string>
+    <string name="drawer_category_apk">APK</string>
+    <string name="drawer_category_audio">Audio</string>
+    <string name="drawer_category_archives">Arhive</string>
+    
+    <string name="drawer_status">Status</string>
+    <string name="drawer_status_running">Pokrenuto</string>
+    <string name="drawer_status_stopped">Zaustavljeno</string>
+    
+    <string name="drawer_date_added">Datum dodavanja</string>
+    <string name="drawer_date_added_today">Danas</string>
+    <string name="drawer_date_added_yesterday">Juče</string>
+    <string name="drawer_date_added_week">Nedelja</string>
+    <string name="drawer_date_added_month">Mesec</string>
+    <string name="drawer_date_added_year">Godina</string>
+    
+    <string name="drawer_sorting">Sortiranje</string>
+    <string name="drawer_sorting_date_added">Datum dodavanja</string>
+    <string name="drawer_sorting_name">Ime</string>
+    <string name="drawer_sorting_size">Veličina</string>
+    <string name="drawer_sorting_category">Kategorija</string>
+    <string name="drawer_sorting_no_sorting">Bez sortiranja</string>
+
+    
+
+    
+    <string name="download_queued_progress_template">%1$s/%2$s \u2022 %3$s \u2022 %4$s/s</string>
+    
+    <string name="download_queued_template">%1$s/%2$s \u2022 %3$s</string>
+    
+    <string name="download_finished_template">%1$s \u2022 %2$s</string>
+    <string name="download_details">Detalji</string>
+    <string name="deleting">Brisanje</string>
+    <string name="delete_selected_download">Obriši odabrano preuzimanje? Ova operacija se ne može poništiti</string>
+    <string name="delete_selected_downloads">Obriši odabrana preuzimanja? Ova operacija se ne može poništiti</string>
+    <string name="delete_with_downloaded_file">Obriši sa preuzetom datotekom</string>
+    <string name="error_verify_checksum">Nevažeća provera suma datoteke</string>
+
+    
+    <string name="dir_chooser_title">Izbor foldera</string>
+    <string name="file_chooser_title">Izbor datoteke</string>
+    <string name="dialog_new_folder_title">Novi folder</string>
+    <string name="error_dialog_new_folder">Nemoguće kreirati novi folder</string>
+    <string name="error_open_dir">Nemoguće otvoriti folder</string>
+    <string name="home_directory">Početna</string>
+    
+    <string name="permission_denied">Dozvola odbijena</string>
+    <string name="save_file">Sačuvaj datoteku</string>
+    <string name="file_name">Ime datoteke</string>
+    <string name="error_file_exists">Datoteka već postoji. Zameni je?</string>
+    <string name="file_name_is_empty">Ime datoteke ne može biti prazno</string>
+    <string name="system_manager">Sistemski menadžer</string>
+    <string name="device_does_not_support_this_feature">Vaš uređaj ne podržava ovu funkciju</string>
+    <string name="system_file_manager_not_found">Sistemski menadžer datoteka nije pronađen</string>
+    <string name="replace_file">Zameni datoteku</string>
+
+    
+    <string name="detail_downloaded">Preuzeto</string>
+    
+    <string name="detail_downloaded_format">%1$s/%2$s (%3$d%%)</string>
+    <string name="detail_pieces">Delovi</string>
+    <string name="detail_date_added">Datum dodavanja</string>
+    <string name="detail_user_agent">Korisnički agent</string>
+    <string name="detail_md5_hash_sum">MD5</string>
+    <string name="detail_sha256_hash_sum">SHA-256</string>
+    <string name="calculate">Izračunaj</string>
+
+    
+    <string name="app_error_occurred">Došlo je do greške u aplikaciji. Možete poslati izveštaj developerima</string>
+    <string name="error_comment_prompt">Možete dodati dodatne informacije i komentare ovde:</string>
+
+    
+    <string name="send_text_to_clipboard">Kopiraj</string>
+    <string name="text_copied_to_clipboard">Tekst kopiran u klipbord</string>
+
+    
+    <string name="browser">Pretraživač</string>
+    <string name="browser_app">Easyplex Pretraživač</string>
+    <string name="webview_is_required">Potreban je WebView za rad</string>
+    <string name="browser_forward_arrow">Napred</string>
+    <string name="browser_desktop_version">Desktop verzija</string>
+    <string name="browser_address_bar_hint">Unesite adresu ili upit</string>
+    <string name="browser_back_pressed">Pritisnite ponovo za zatvaranje</string>
+    <string name="browser_secure_connection">Bezbedna veza</string>
+    <string name="browser_download_from_link">Preuzmi</string>
+    <string name="browser_copy_link">Kopiraj link</string>
+    
+    <string name="browser_bookmarks">Obeleživači</string>
+    <string name="bookmarks_list_empty">Nema obeleživača</string>
+    <string name="browser_add_bookmark">Dodaj obeleživač</string>
+    <string name="browser_edit_bookmark">Izmeni obeleživač</string>
+    
+    <string name="browser_bookmark_name">Ime</string>
+    <string name="browser_bookmark_url">URL</string>
+    <string name="browser_bookmark_error_empty_url">Molimo unesite URL</string>
+    <string name="browser_bookmark_error_empty_name">Molimo unesite ime</string>
+    <plurals name="browser_bookmark_deleted">
+        <item quantity="one">Obeleživač obrisan</item>
+        <item quantity="other">Obeleživači obrisani</item>
+    </plurals>
+    <plurals name="browser_bookmark_delete_failed">
+        <item quantity="one">Brisanje obeleživača nije uspelo</item>
+        <item quantity="other">Brisanje obeleživača nije uspelo</item>
+    </plurals>
+    <string name="browser_bookmark_change_failed">Izmena obeleživača nije uspela</string>
+    <string name="browser_bookmark_added">Obeleživač dodat</string>
+    <string name="browser_bookmark_add_failed">Dodavanje obeleživača nije uspelo</string>
+    <string name="browser_bookmark_edit_menu">Izmeni</string>
+
+
+    
+    
+    <string name="pref_header_appearance">Izgled</string>
+    <string name="pref_header_behavior">Ponašanje</string>
+    <string name="pref_header_limitations">Ograničenja</string>
+    <string name="pref_header_storage">Skladište</string>
+    <string name="pref_header_browser">Pregledač</string>
+    
+    <string name="pref_theme_category">Postavke teme</string>
+    <string name="pref_theme_title">Tema</string>
+    <string-array name="pref_theme_entries">
+        <item>Svetlo</item>
+        <item>Tamno</item>
+        <item>Crno</item>
+    </string-array>
+    <string name="pref_notification_category">Postavke obaveštenja</string>
+    <string name="pref_progress_notify_title">Obaveštenje o napretku</string>
+    <string name="pref_finish_notify_title">Obaveštenje o završetku</string>
+    <string name="pref_pending_notify_title">Obaveštenje o čekanju</string>
+    <string name="pref_play_sound_notify_title">Reprodukuje zvuk</string>
+    <string name="pref_notify_sound_title">Zvuk obaveštenja</string>
+    <string name="pref_led_indicator_notify_title">LED indikator</string>
+    <string name="pref_led_indicator_color_notify_title">Boja LED indikatora</string>
+    <string name="pref_vibration_notify_title">Vibracija</string>
+    <string name="theme_settings_apply_after_reboot">Postavke teme će biti primenjene nakon ponovnog pokretanja aplikacije</string>
+    
+    <string name="pref_autostart_title">Automatsko pokretanje</string>
+    <string name="pref_autostart_summary">Pokreni aplikaciju nakon pokretanja uređaja i pokreni preuzimanja, ako nisu ručno pauzirana</string>
+    
+    <string name="pref_umnetered_connections_only_title">Samo neograničene veze</string>
+    <string name="pref_umnetered_connections_only_summary">Preuzimaj samo preko neograničenih veza (na primer, Wi-Fi ili Ethernet)</string>
+    <string name="pref_power_management_category">Upravljanje energijom</string>
+    <string name="pref_cpu_do_not_sleep_title">Održavaj CPU budnim</string>
+    <string name="pref_cpu_do_not_sleep_summary">Omogućavanje ovoga povećaće potrošnju baterije. Koristite ovu opciju ako se smanjuje brzina preuzimanja kada se ekran isključi</string>
+    <string name="pref_download_only_when_charging_title">Preuzimanje samo tokom punjenja</string>
+    <string name="pref_download_only_when_charging_summary">Ako je omogućeno, preuzimanje će se dešavati samo tokom punjenja. Sva preuzimanja će biti pauzirana kada nije povezano s punjačem</string>
+    <string name="pref_battery_control_title">Upravljanje baterijom</string>
+    <string name="pref_custom_battery_control_title">Prilagođeni procenat baterije</string>
+    <string name="pref_custom_battery_control_value_title">Procenat upravljanja baterijom</string>
+    <string name="pref_battery_control_summary">Sva preuzimanja će biti pauzirana ako nivo baterije padne ispod %1$d%%. Ograničenje ne važi tokom punjenja</string>
+    <string name="pref_custom_battery_control_summary">Postavite prilagođeni procenat za pauziranje preuzimanja ako nivo baterije padne ispod datog praga. Omogućavanje ove opcije će zanemariti podrazumevani prag od %1$d%%</string>
+    <string name="pref_custom_battery_control_dialog_summary">Postavljanje prilagođenog procenta baterije koje aplikacija prati imaće negativan uticaj na trajanje baterije tokom preuzimanja. Da li ste sigurni da želite da omogućite ovo?</string>
+    <string name="pref_enable_roaming_title">Omogući roaming</string>
+    <string name="pref_enable_roaming_summary">Preuzimaj samo ako uređaj nije u roamingu</string>
+    <string name="pref_replace_duplicate_downloads_title">Zameni duplicirana preuzimanja</string>
+    <string name="pref_replace_duplicate_downloads_summary">Zameni duplicirana preuzimanja (sa istim URL) koja su već u listi</string>
+    <string name="pref_auto_connect_title">Auto povezivanje</string>
+    <string name="pref_auto_connect_summary">Auto povezivanje prilikom otvaranja dijaloga za dodavanje</string>
+    <string name="pref_timeout_title">Vreme isteka</string>
+    <string name="pref_timeout_summary">Broj milisekundi koje treba sačekati pre nego što veza istekne. Nula se tumači kao beskrajno vreme čekanja</string>
+    
+    <string name="pref_max_active_downloads_title">Maksimalan broj aktivnih preuzimanja</string>
+    <string name="pref_max_download_retries_title">Maksimalan broj pokušaja preuzimanja</string>
+    <string name="pref_max_download_retries_dialog_msg">0 - bez pokušaja</string>
+    <string name="pref_speed_limit_title">Ograničenje brzine za jedan deo</string>
+    <string name="pref_speed_limit_dialog_hint">Postavite brzinu u KiB/s (0 - bez ograničenja)</string>
+    
+    <string name="pref_save_downloads_in_title">Spremi preuzimanja u</string>
+    <string name="pref_move_after_download_title">Pomeri nakon preuzimanja</string>
+    <string name="pref_move_after_download_in_title">Pomeri nakon preuzimanja u</string>
+    <string name="pref_delete_file_if_error_title">Obriši datoteku ako dođe do greške</string>
+    <string name="pref_preallocate_disk_space_title">Prealociraj prostor na disku za datoteku</string>
+    <string name="pref_preallocate_disk_space_summary">Dostupno za Android 5.0 Lollipop i novije verzije</string>
+
+
+    
+    <string name="pref_browser_bottom_address_bar_title">Adresna traka na dnu</string>
+    <string name="pref_browser_bottom_address_bar_summary">Adresna traka će se nalaziti na dnu ekrana</string>
+    <string name="pref_browser_start_page_title">Početna stranica</string>
+    <string name="pref_browser_allow_java_script_title">Dozvoli Java Script</string>
+    <string name="pref_browser_allow_popup_windows_title">Dozvoli iskačuće prozore</string>
+    <string name="pref_browser_cache_category">Keš</string>
+    <string name="pref_browser_cookies_category">Kolačići</string>
+    <string name="pref_browser_enable_caching_title">Omogući keširanje</string>
+    <string name="pref_browser_enable_cookies_title">Omogući kolačiće</string>
+    <string name="pref_browser_delete_cookies_title">Obriši kolačiće</string>
+    <string name="pref_browser_delete_cookies_done">Obrisani su svi kolačići</string>
+    <string name="pref_browser_clear_cache_title">Očisti keš</string>
+    <string name="pref_browser_clear_cache_done">Keš je očišćen</string>
+    <string name="pref_browser_do_not_track_title">Ne prati</string>
+    <string name="pref_browser_do_not_track_summary">Šalje zahtev "Ne prati" veb stranicama koje posećujete</string>
+    <string name="pref_browser_launcher_icon_title">Ikona pregledača u lanseru</string>
+    <string name="pref_browser_disable_from_system_title">Onemogući pregledač iz sistema</string>
+    <string name="pref_browser_disable_from_system_summary">Pregledač neće biti dostupan za otvaranje veza</string>
+    <string name="pref_browser_search_engine_title">Pretraživač</string>
+    <string name="pref_browser_hide_menu_icon_title">Sakrij ikonu iz menija</string>
+    <string name="pref_browser_hide_menu_icon_summary">Sakrij ikonu pregledača sa glavnog ekrana menija</string>
+
+    
+    <string name="about_title">O aplikaciji Download Easyplex</string>
+    <string name="about_description" />
+    <string name="about_changelog">Promene</string>
+
+
+    <string name="referer">HTTP Referer</string>
+    
+    <string name="pref_theme_light_value">0</string>
+    <string name="pref_theme_dark_value">1</string>
+    <string name="pref_theme_black_value">2</string>
+    <string-array name="pref_theme_entries_value" translatable="false">
+        <item>@string/pref_theme_light_value</item>
+        <item>@string/pref_theme_dark_value</item>
+        <item>@string/pref_theme_black_value</item>
+    </string-array>
+
+    
+    <string name="about_changelog_link">https://codecanyon.net/item/easyplex-movies-live-streaming-tv-series-anime/28462799</string>
+    <string name="search_results">Rezultati pretrage</string>
+    <string name="exit_the_app">Pritisnite ponovo za izlaz iz aplikacije</string>
+    <string name="access_code">Pogrešan pristupni kod</string>
+    <string name="completed_download_message_fragment">Ovo je mesto gde ćete videti emisije i filmove koje smo preuzeli za vas. Proverite kasnije da vidite šta smo pronašli</string>
+    <string name="queue_download_message_fragment">Ovo je mesto gde ćete videti emisije i filmove u režimu čekanja. Pokušajte dodati neko preuzimanje i proverite kasnije da vidite šta smo pronašli</string>
+    <string name="queue_is_empty">Red čekanja je prazan!</string>
+    <string name="completed_is_empty">Završeno je prazno</string>
+    <string name="non_verified">- Nije provereno</string>
+    <string name="verified">- Provereno</string>
+    <string name="rest_confirmation_mail">"Reset potvrde poslat na"</string>
+    <string name="episode">Epizoda</string>
+    <string name="remove_watch_list">Uklonjeno sa liste za praćenje</string>
+
+
+    <string name="unexpected_intent_action">Neočekivana radnja intenta: <ns0:g id="action">%1$s</ns0:g></string>
+
+    <string name="error_cleartext_not_permitted">Nije dozvoljen čist HTTP saobraćaj. Pogledajte https://exoplayer.dev/issues/cleartext-not-permitted</string>
+
+    <string name="error_generic">Reprodukcija nije uspela</string>
+
+    <string name="error_drm_unsupported_before_api_18">DRM sadržaj nije podržan na API nivoima ispod 18</string>
+
+    <string name="error_drm_unsupported_scheme">Ovaj uređaj ne podržava potrebnu DRM šemu</string>
+
+    <string name="error_no_decoder">Ovaj uređaj ne pruža dekoder za <ns0:g id="mime_type">%1$s</ns0:g></string>
+
+    <string name="error_no_secure_decoder">Ovaj uređaj ne pruža bezbedan dekoder za <ns0:g id="mime_type">%1$s</ns0:g></string>
+
+    <string name="error_querying_decoders">Nemoguće je upitati dekodere uređaja</string>
+
+    <string name="error_instantiating_decoder">Nemoguće je instancirati dekoder <ns0:g id="decoder_name">%1$s</ns0:g></string>
+
+    <string name="error_unsupported_video">Medijski sadržaj sadrži video zapise, ali nijedan nije reproduktivan na ovom uređaju</string>
+
+    <string name="error_unsupported_audio">Medijski sadržaj sadrži audio zapise, ali nijedan nije reproduktivan na ovom uređaju</string>
+
+    <string name="storage_permission_denied">Dozvola za pristup skladištu je odbijena</string>
+
+    <string name="sample_list_load_error">Jedan ili više popisa uzoraka nisu uspeli da se učitaju</string>
+
+    <string name="download_start_error">Nije uspelo pokretanje preuzimanja</string>
+
+    <string name="download_start_error_offline_license">Nije uspelo dobijanje offline licence</string>
+
+    <string name="prefer_extension_decoders">Preferiraj dekodere proširenja</string>
+    <string name="main_player">Glavni plejer</string>
+    <string name="vlc">VLC</string>
+    <string name="mx_player">MX PLAYER</string>
+    <string name="web_video_caster">Web Video Caster</string>
+    <string name="comments">KOMENTARI</string>
+    <string name="lbl_justnow">Upravo sada</string>
+    <string name="lbl_seconds_ago">sekundi pre</string>
+    <string name="lbl_min_ago">minuta pre</string>
+    <string name="lbl_mins_ago">minuta pre</string>
+    <string name="lbl_hr_ago">sati pre</string>
+    <string name="lbl_hrs_ago">sati pre</string>
+    <string name="lbl_day_ago">dan pre</string>
+    <string name="lbl_days_ago">dana pre</string>
+    <string name="lbl_lstweek_ago">prošle nedelje</string>
+    <string name="lbl_week_ago">nedelja pre</string>
+    <string name="lbl_onemonth_ago">pre 1 mesec</string>
+    <string name="lbl_month_ago">meseca pre</string>
+    <string name="lbl_oneyear_ago">prošle godine</string>
+    <string name="lbl_year_ago">godina pre</string>
+    <string name="report_sent">Vaš izveštaj je uspešno poslat</string>
+    <string name="screen_locked">Ekran zaključan</string>
+    <string name="tap_to_unlock">Dodirom otključajte</string>
+    <string name="unlock_control">Otključaj kontrolu?</string>
+    <string name="lock">Zaključaj</string>
+    <string name="how_to_get_the_code">Kako dobiti kod?</string>
+    <string name="using_1dm">KORIŠĆENJE 1DM</string>
+    <string name="using_adm">KORIŠĆENJE ADM</string>
+    <string name="using_app">APLIKACIJA</string>
+    <string name="genres_lists_empty">Nemoguće dobiti liste žanrova</string>
+    <string name="substitles_empty">Nema titlova za ovaj medijum</string>
+    <string name="play_with_web_video_caster">Reprodukuje sa Web Video Caster</string>
+    <string name="comment_sent">Komentar uspešno dodat</string>
+    <string name="trailer_not_found">Nema trejlera</string>
+    <string name="login_to_comment">Morate se prijaviti da biste mogli dodati komentar!</string>
+    <string name="default_lang_substitles">Podrazumevani titl</string>
+    <string name="current_default_lang2">Trenutni podrazumevani jezik: %s</string>
+    <string name="default_langs_substitles">Podrazumevani jezici titlova..</string>
+    <string name="comments_size"> Komentari </string>
+    <string name="comment_not_deleted">nije mogao biti obrisan</string>
+    <string name="comment_deleted">Uspešno obrisan</string>
+    <string name="type_comment">Unesite reč da biste mogli komentarisati!</string>
+    <string name="delete_user">Nemoguće je obrisati vaš nalog!</string>
+    <string name="app_versions">"Verzija: "</string>
+    <string name="added_mylist">Dodato</string>
+    <string name="removed_mylist">Uklonjeno: </string>
+    <string name="unable_to_register_please_try_again">Nemoguće je registrovati se, pokušajte ponovo</string>
+    <string name="write_comment">Napišite komentar…</string>
+    <string name="there_are_no_comments">Nema komentara</string>
+    <string name="current_subtitle">Trenutna veličina titla: %s</string>
+    <string name="fonts_size">Veličina fonta</string>
+    <string name="current_color">Trenutna boja titla: %s</string>
+    <string name="bg_font_color">Boja fonta titla..</string>
+    <string name="filmographie">Filmografija</string>
+    <string name="rewards_ads_not_ready">Nagrada oglasa još nije spremna</string>
+    <string name="add_profile">Dodaj profil</string>
+    <string name="manage_profiles">Upravljanje profilima</string>
+    <string name="editmod_profiles">Zatvori režim uređivanja</string>
+    <string name="who_s_watching">Ko gleda?</string>
+    <string name="byteen" translatable="false">/10</string>
+    <string name="rating_sent">Recenzija je uspešno poslata</string>
+    <string name="review_sent">Recenzija je uspešno poslata</string>
+    <string name="review_require_login">Potrebna je prijava kako biste ocenili!</string>
+    <string name="upload_avatar">Postavi avatar</string>
+    <string name="enter">Unesi</string>
+    <string name="get_password">Dobi lozinku</string>
+    <string name="search_on_youtube">Pretraži na YouTube-u</string>
+    <string name="no_trailer_has_been_found_click_below_to_search_on_youtube">Nema trejlera, kliknite ispod da biste pretražili na YouTube-u</string>
+    <string name="failed_to_load_required_informations_client_id_is_not_valid">Nije uspelo učitavanje potrebnih informacija, ID klijenta nije validan</string>
+    <string name="the_rewarded_ad_wasn_t_loaded_yet_or_completed">Nagrada oglasa još nije učitana ili je završena</string>
+    <string name="type_to_comment">Unesite reč da biste mogli komentarisati!</string>
+    <string name="please_uninstall_your_sniffer_to_be_able_to_use_the_app">Deinstalirajte svoj snifer da biste mogli koristiti aplikaciju!</string>
+    <string name="added_to_watchlist">Dodato na listu za gledanje</string>
+    <string name="story">Priča</string>
+    <string name="caracters">Karakteri</string>
+    <string name="animation">Animacija</string>
+    <string name="music">Muzika</string>
+    <string name="submit">Pošalji</string>
+    <string name="send">Pošalji</string>
+    <string name="checking_your_login_info">Provera vaših podataka za prijavu....</string>
+    <string name="biography">Biografija</string>
+    <string name="place">Mesto</string>
+    <string name="profile_updated">"Vaš profil je uspešno ažuriran!"</string>
+    <string name="profile_update_error">"Vaš profil nije ažuriran!"</string>
+    <string name="countdown_wait">Morate čekati da se odbrojavanje završi pre nego što ponovo pošaljete kod za potvrdu</string>
+    <string name="phone_is_empty">Molimo vas da popunite broj telefona</string>
+    <string name="quota_exceeded">Dosegnuto je kvota za SMS poruke za projekat</string>
+    <string name="invalid_request">Nevažeći zahtev</string>
+    <string name="sms_sent">Verifikacioni kod putem SMS poruke poslat na uneti broj telefona</string>
+    <string name="profile_limit">Ne možete kreirati više od 5 profila na istom nalogu</string>
+    <string name="profile_added">Profil uspešno dodat</string>
+    <string name="error_occured">Došlo je do greške</string>
+    <string name="profile_name_placeholder">Ime profila…</string>
+    <string name="choose_season">Izaberite sezonu</string>
+    <string name="choose">Izaberite</string>
+    <string name="comment_size_views">"Komentari : "</string>
+    <string name="stream_is_currently_not_available_for_this_media">Trenutno nije dostupan tok za ovaj medijum</string>
+    <string name="download_is_currently_not_available_for_this_media">Trenutno nije dostupno preuzimanje za ovaj medijum</string>
+    <string name="max_devices">Dostigli ste maksimalan broj uređaja dozvoljenih na vašem nalogu</string>
+    <string name="maximum_devices_allowed_is">Maksimalni dozvoljeni broj uređaja je: </string>
+    <string name="delete_more_devices_to_coutinue">Obrišite još uređaja da biste nastavili!</string>
+    <string name="verify_account">Verifikujte nalog</string>
+    <string name="devices_management">Upravljanje uređajima</string>
+    <string name="you_must_be_logged_in_to_watch_the_stream">Morate biti prijavljeni da biste gledali tok</string>
+    <string name="browse">Pretraži</string>
+    <string name="languages">Jezici</string>
+
+
+    <string name="read_more">Pročitajte više</string>
+    <string name="read_less">Pročitajte manje</string>
+    <string name="watch_in_your_language">Gledajte na svom jeziku</string>
+    <string name="apply_coupon">Primjeni kupon</string>
+    <string name="whoops">Ups!</string>
+    <string name="no_internet_connections">Nije pronađena internet veza. Proverite svoju vezu ili pokušajte ponovo</string>
+    <string name="internet_connection_active">Aktivna internet veza</string>
+    <string name="no_internet_connection">Nema internet veze</string>
+    <string name="account_banned">Vaš nalog je zabranjen. Kontaktirajte podršku za više informacija!</string>
+    <string name="you_must_be_logged_in_to_download_the_stream">Morate biti prijavljeni da biste preuzeli tok</string>
+    <string name="error_loading_app_settings">Greška pri učitavanju podešavanja aplikacije. Proverite da li koristite ispravnu API adresu.</string>
+    <string name="error_loading_api_please_check">Greška pri učitavanju API-ja. Proverite tačnu adresu vašeg API-ja!</string>
+    <string name="please_enter_a_coupon_code_before_coutinue">Molimo unesite kod kupona pre nego što nastavite!</string>
+    <string name="error_sending_the_email">Greška pri slanju e-pošte! Proverite svoju SMTP konfiguraciju</string>
+    <string name="be_the_first_one_to_comment">Budite prvi koji će komentarisati!</string>
+    <string name="you_must_login_before_manage_devices">Morate se prijaviti pre nego što upravljate uređajima!</string>
+    <string name="your_token_has_expired_try_to_login_again">Vaš token je istekao, pokušajte ponovo sa prijavom</string>
+    <string name="profile_deleted">Profil obrisan!</string>
+    <string name="view_all">PRIKAŽI SVE</string>
+    <string name="device_deleted">Uređaj obrisan!</string>
+    <string name="select_your_languages">Izaberite svoje jezike</string>
+
+    <string name="get_app_signature">Добијање потписа апликације</string>
+    <string name="clear_search_history">Брисање историјата претраге</string>
+    <string name="change_app_languages">Језици апликације</string>
+    <string name="download_options">Опције преузимања</string>
+
+    <string name="select_item">Izaberi stavku</string>
+    <string name="collections">Collections</string>
+    <string name="latest_movies">Latest Movies</string>
+    <string name="login_code_android_tv">Login Code ( Android TV )</string>
+    <string name="login_code_to_able_to_connect_your_mobile_app_to_the_upcoming_android_tv_version">login code to able to connect your mobile app to the upcoming Android TV version</string>
+    <string name="maturity_rating">Maturity Rating</string>
+    <string name="batter_optimize">You must use No restrictions to able to receive notifications</string>
+    <string name="notifications">Notifications</string>
+    <string name="there_is_no_notifications_to_show">There is no notifications to show !</string>
+    <string name="error_loading_playlist">Error Loading Playlist !</string>
+    <string name="all_notifications_has_been_deleted">All notifications has been deleted !</string>
+
+    <string name="just_now">Управо сада</string>
+    <string name="error_playlist_load">Грешка при учитавању листе песама</string>
+    <string name="all_notifications_deleted">Сва обавештења су обрисана</string>
+
+    <plurals name="minutes_ago">
+        <item quantity="one">Пре %d минута</item>
+        <item quantity="other">Пре %d минута</item>
+    </plurals>
+
+    <plurals name="hours_ago">
+        <item quantity="one">Пре %d сата</item>
+        <item quantity="other">Пре %d сати</item>
+    </plurals>
+
+    <plurals name="days_ago">
+        <item quantity="one">Пре %d дана</item>
+        <item quantity="other">Пре %d дана</item>
+    </plurals>
+<string name="are_you_sure_you_want_to_delete_your_account">Are you sure you want to delete your account ?</string><string name="you_must_choose_a_profile_name_before_choosing_an_avatar">You must choose a profile name before choosing an avatar !</string><string name="your_account_is_already_verified">Your Account is already verified</string><string name="app_name">EasyPlex</string><string name="shutdown">Shutdown</string></resources>

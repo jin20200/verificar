@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <string name="app_name" translatable="false">EasyPlex</string>
+
+
+    <string name="facebook_app_id" translatable="false">590451789066119</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb590451789066119</string>
+
+
+    <!-- Movie Details -->
+    <string name="movie_original_label" translatable="false">Movie</string>
+    <string name="movie_release_label" translatable="false">Release Date</string>
+    <string name="movie_genres_text" translatable="false">Thriller, Action, Sci Fi </string>
+    <string name="movie_overview_label" translatable="false">Synopsis</string>
+    <string name="movie_overview_text" translatable="false">A ten year old girl who wanders away from her parents along a path that leads to a
+        world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others
+        inside a bathhouse full of these creatures. Will she ever see the world how it once was?</string>
+    <string name="movie_cast_label">Casts</string>
+
+    <!-- Retry -->
+    <string name="home">Home</string>
+
+
+
+    <!-- App Strings  -->
+    <string name="resume">Resume</string>
+    <string name="settings">Settings</string>
+    <string name="discover">Discover</string>
+    <string name="library">Library</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="streaming">Streaming</string>
+    <string name="live_text">LIVE</string>
+    <string name="share_msg">Hi,I would like to share with you this media called </string>
+    <string name="about_wifi_warning">You have selected to playback on Wi-Fi only. Go to App Settings to change.</string>
+    <string name="about_no_stream_download">No Download Available For This Movie Check Later.</string>
+    <string name="about_no_stream_download_episode">No Download Available For This Episode Check Later.</string>
+    <string name="about_no_stream">No Stream Available For This Movie Check Later.</string>
+    <string name="ep_n" translatable="false">EP N</string>
+    <string name="about_error_login">Bad Credentials. Please Login Again.</string>
+    <string name="err_email">The email must be a valid email address.</string>
+    <string name="err_name">The name field is required.</string>
+    <string name="err_password">The password must be at least 6 characters.</string>
+    <string name="controller_time_position_text_default" translatable="false">00:00:00</string>
+    <string name="no_media_error_message" translatable="false">A MediaModel needs to be passed to the intent on activity start to play media</string>
+    <string name="commercial" translatable="false">Commercial</string>
+    <string name="movies_amp_series" translatable="false"><![CDATA[MOVIES & Series]]></string>
+    <string name="title">TITLE</string>
+    <string name="genre">Genre</string>
+    <string name="play_trailer">Play Trailer</string>
+    <string name="release_date">RELEASE DATE</string>
+    <string name="seasons_8" translatable="false">Seasons:8</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="details">Details</string>
+    <string name="starring">Starring</string>
+    <string name="seasons">Seasons</string>
+    <string name="search_movies_series">Search Movies, Series,Animes,Streaming…</string>
+    <string name="no_relateds_movies_found">No Relateds Movies Found</string>
+    <string name="no_list_result">Your favorites list is empty</string>
+    <string name="list_add_later">Add some items to find them later</string>
+    <string name="premuim">Premuim</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="register">R E G I S T E R</string>
+    <string name="update_profile">U P D A T E</string>
+    <string name="copyright">Copyright © 2024 EasyPlex. All rights reserved.</string>
+    <string name="image">Image</string>
+    <string name="start_watching">START WATCHING</string>
+    <string name="register_sucess">The Registration was successful</string>
+    <string name="recommended_for_you">RECOMMENDED FOR YOU</string>
+    <string name="streaming_home">STREAMING</string>
+    <string name="trending_now">TRENDING NOW</string>
+    <string name="new_releases">NEW RELEASES</string>
+    <string name="popular_series">POPULAR SERIES</string>
+    <string name="latest_series">LATEST SERIES</string>
+    <string name="new_this_week">NEW THIS WEEK</string>
+    <string name="latest_animes">LATEST ANIMES</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="auth_name" translatable="false">Auth Name</string>
+    <string name="user_EasyPlex_com" translatable="false">user@@string/app_name.com</string>
+    <string name="free">Free</string>
+    <string name="allow_notifications">Allow Notifications</string>
+    <string name="wi_fi_only">Wi-Fi Only</string>
+    <string name="auto_play">Auto Play</string>
+    <string name="substitle_size">Substitle Size</string>
+    <string name="current_aspect_ratio">Current aspect ratio : %s</string>
+    <string name="current_size">Current Size</string>
+    <string name="current_background">Current Color</string>
+    <string name="clear_my_list">Clear My List</string>
+    <string name="clear_history">Do you Really want to Clear History ?</string>
+    <string name="clear_cache_msg">This will be clear cached data for this app !</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="about_us">About Us</string>
+    <string name="confirm">Confirm</string>
+    <string name="trailer_loading">Trailer Loading</string>
+    <string name="genres_list_is_empty">Genres List is empty</string>
+    <string name="episodes">Episodes</string>
+    <string name="next_episode">Next Episode</string>
+    <string name="check_later">Check Later</string>
+    <string name="privacy_amp_policy"><![CDATA[Privacy & Policy]]></string>
+    <string name="decilne">DECILNE</string>
+    <string name="accept">ACCEPT</string>
+    <string name="relateds">Relateds</string>
+    <string name="substitles">Substitles</string>
+    <string name="login">L O G I N</string>
+    <string name="skip">S K I P</string>
+    <string name="signup">SIGN UP FOR AN ACCOUNT?</string>
+    <string name="forget">Forget Password ?</string>
+    <string name="no_upcoming_movies_added">No Upcoming Movies Added</string>
+    <string name="no_download_movies_added">No Downloads Added</string>
+    <string name="this_content_if_only_for_vip">This Content if only for VIP</string>
+    <string name="sorry">SORRY !</string>
+    <string name="back">BACK</string>
+    <string name="ad">Ad</string>
+    <string name="please_try_another_genre">Please try another genre.</string>
+    <string name="try_searching_for_another_movie_show">Try Searching for another movie,show</string>
+    <string name="oh_darn_we_don_t_have_that">Oh darn. We don\'t have that</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="support">SUPPORT</string>
+    <string name="thank_you">Thank You!</string>
+    <string name="the_transaction_was_successful">The transaction was successful</string>
+    <string name="status">status</string>
+    <string name="id" translatable="false">ID</string>
+
+
+    <string name="AGREE">AGREE</string>
+    <string name="DISAGREE">DISAGREE</string>
+
+    <!--Playback Speed copy-->
+    <string name="movie_rating" translatable="false">8.5</string>
+    <string name="try_easyplex_vip">Subscribe From Today</string>
+    <string name="watch_video_ads_to_unlock">Unlock the stream</string>
+    <string name="subscribe_now">SUBSCRIBE NOW</string>
+    <string name="disable_player_ads">Disable Player Ads</string>
+    <string name="turn_off_ads_banner_interstitial_ads">Turn Off ads (Banner,Interstitial ads)</string>
+    <string name="play_premium_content_without_restrictions">Play Premium content without restrictions</string>
+    <string name="download_premium_content">Download Premium content</string>
+    <string name="vip_features">With VIP. Watch thousands of shows and movies, with plans starting at $2.99/month.</string>
+    <string name="custom_text_here">Custom Text Here</string>
+    <string name="update_message">update message</string>
+    <string name="version_2_0">Version 2.0</string>
+    <string name="update">Update</string>
+
+    <!-- Change the following strings as required -->
+    <string name="subscribe">SUBSCRIBE</string>
+    <string name="payment_failed_please_try_again">Payment failed – please try again</string>
+    <string name="valid_until" translatable="false">Valid until : 09–20-2020</string>
+    <string name="cancel_subscription">Cancel Subscription</string>
+    <string name="track_selection_title">Select tracks</string>
+    <string name="cant_show">Can\'t show rewarded video</string>
+    <string name="continue_watching">Continue Watching</string>
+    <string name="continue_watching_profile">Continue Watching for</string>
+    <string name="clear_watch_history">Clear Watch History</string>
+    <string name="media_route_menu_title">Cast</string>
+    <string name="play_media_as_embed">Play Media As Embed</string>
+    <string name="audio">Audio</string>
+    <string name="media_otpions">Media Options</string>
+    <string name="sort_by">Sort by</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="latest_channels">Latest Channels</string>
+    <string name="downloads">Downloads</string>
+    <string name="if_you_re_having_audio_problems_enable_this_option">If you’re having audio problems, enable this option to support more audio extensions.</string>
+    <string name="are_you_sure_to_delete_from_your_watching_history">Are you sure to delete </string>
+    <string name="report_broken_link">Report Broken Link</string>
+    <string name="movies">Movies</string>
+    <string name="series">Series</string>
+    <string name="animes">Animes</string>
+    <string name="version">EASYPLEX: %1$s</string>
+    <string name="introducing_cast">Introducting @string/app_name Cast</string>
+    <string name="sorry_this_content_is_only_available_for_easyplex_vip_users">Sorry,this content is only available Premuim  users</string>
+    <string name="app_id" translatable="false">CC1AD845</string>
+    <string name="action_settings">Settings</string>
+    <string name="error">Error</string>
+    <string name="about_app">About @string/app_name</string>
+
+    <!-- Error messages -->
+    <!-- onApplicationConnectionFailed() errors -->
+    <string name="oops">Oops</string>
+
+    <!-- Preferences -->
+    <string name="prefs_header_application">Application Behavior</string>
+    <string name="prefs_header_application_summary">Control how the application behaves on the TV
+    </string>
+    <string name="prefs_volume_title">Volume Assignment</string>
+    <string name="prefs_volume_title_summary">Controls %1$s</string>
+    <string name="prefs_volume_dialog_title">Volume Assignment</string>
+    <string name="prefs_volume_default">device</string>
+
+
+    <!-- Queue -->
+    <string name="show_queue">Show Queue</string>
+    <string name="queue_list">Queue</string>
+    <string name="queue_tag_item">queue-tag-item</string>
+    <string name="play_now">Play Now</string>
+    <string name="play_next">Play Next</string>
+    <string name="add_to_queue">Add to Queue</string>
+    <string name="action_clear_queue">Clear Queue</string>
+    <string name="queue_item_added_to_play_next">An item was added to play next</string>
+    <string name="queue_item_added_to_queue">An item was added to the queue</string>
+    <string name="select_quality">Select Source Quality</string>
+    <string name="download_for">Download for </string>
+    <string name="has_started">has been started…</string>
+
+
+
+    <!-- ADS NETWORKS -->
+
+
+    <!-- Don't Change -->
+    <string name="applovin" translatable="false">AppLovin</string>
+
+    <!-- Don't Change -->
+    <string name="appnext" translatable="false">AppNext</string>
+
+    <!-- Don't Change -->
+    <string name="ironsource" translatable="false">Ironsource</string>
+
+    <!-- Don't Change -->
+    <string name="vungle" translatable="false">Vungle</string>
+
+    <!-- Don't Change -->
+    <string name="startapp" translatable="false">StartApp</string>
+    <!-- Don't Change -->
+    <string name="unityads" translatable="false">UnityAds</string>
+    <!-- Don't Change -->
+    <string name="admob" translatable="false">Admob</string>
+    <!-- Don't Change -->
+    <string name="appodeal" translatable="false">Appodeal</string>
+    <!-- Don't Change -->
+    <string name="facebook" translatable="false">Facebook</string>
+    <!-- Don't Change -->
+    <string name="auto" translatable="false">Auto</string>
+
+    <!-- Don't Change -->
+    <string name="wortise" translatable="false">Wortise</string>
+
+
+    <string name="autoplay_on">AutoPlay is On</string>
+    <string name="autoplay_off">AutoPlay is Off</string>
+    <string name="has_been_started">has been started…</string>
+    <string name="unable_cast">Unable To Connect to cast</string>
+    <string name="ready_5sec"> will be ready in 5 sec </string>
+    <string name="select_subs">Select Substitle</string>
+    <string name="video_qualities">Video Qualities</string>
+    <string name="aspect_ratio">Aspect Ratio</string>
+    <string name="current_aspect">Current aspect ratio</string>
+
+    <!--Playback Menu titles-->
+    <string name="playback_setting_speed_title">Playback Speed</string>
+
+    <!--Playback Speed copy-->
+    <string name="playback_speed_a_quarter" translatable="false">0.25x</string>
+    <string name="playback_speed_a_half" translatable="false">0.5x</string>
+    <string name="playback_speed_three_quarter" translatable="false">0.75x</string>
+    <string name="playback_speed_normal">Normal</string>
+    <string name="playback_speed_one_and_a_quarter" translatable="false">1.25x</string>
+    <string name="playback_speed_one_and_a_half" translatable="false">1.5x</string>
+    <string name="playback_speed_one_and_three_quarter" translatable="false">1.75x</string>
+    <string name="playback_speed_two" translatable="false">2x</string>
+    <string name="up_next">Up Next in : </string>
+    <string name="empty_queue">Empty Queue</string>
+    <string name="lecture">Watch Now</string>
+    <string name="vip">VIP</string>
+    <string name="are_you_sure_you_want_to_cancel_your_subscription">Are you sure you want to cancel your subscription ?</string>
+    <string name="write_something">Write something …</string>
+    <string name="mylist">My List</string>
+    <string name="plan_name">NAME</string>
+    <string name="player_default">default</string>
+    <string name="player_43" translatable="false">4:3</string>
+    <string name="player_169" translatable="false">16:9</string>
+    <string name="player_fullscreen">full screen</string>
+    <string name="player_room">Zoom</string>
+    <string name="restart">Restart</string>
+    <string name="source_quality">Select Source Quality</string>
+    <string name="lists_movies">Lists of Movies</string>
+    <string name="lists_series">Lists of Series</string>
+    <string name="lists_animes">Lists of Animes</string>
+    <string name="lists_streaming">Lists of Streaming</string>
+    <string name="from_history"> from your watching history ?</string>
+    <string name="unable_to_get_genres">Unable to Get Genres Lists</string>
+    <string name="views">views: </string>
+    <string name="latest_episodes">LATEST SERIES EPISODES</string>
+    <string name="latest_episodes_animes">LATEST ANIMES EPISODES</string>
+    <string name="latest_movies_amp_series" translatable="false"><![CDATA[TOP CONTENT]]></string>
+    <string name="player_substitles">Substitle…</string>
+    <string name="add_to_my_list_player">Add To MyList</string>
+    <string name="select_subs_player">Select Subs..</string>
+    <string name="choosed_for_you">Choosed For You</string>
+    <string name="skip_recap">SKIP INTRO</string>
+    <string name="resumes">Resume</string>
+    <string name="select_qualities">Select Quality</string>
+    <string name="suggested_programmes">Suggested Programes</string>
+    <string name="speed_normal">Normal</string>
+    <string name="choose_your_launch_player">Choose your launch player</string>
+    <string name="my_downloads">DOWNLOADS</string>
+    <string name="loading_rewards">Loading Reward</string>
+    <string name="icon_desc" translatable="false">Ad icon</string>
+    <string name="image_desc" translatable="false">Ad image</string>
+    <string name="sponsored">Sponsored</string>
+    <string name="not_found_series">The Series not found in our database !</string>
+    <string name="from_your_history">from your watching history ?</string>
+    <string name="sub_setting_clear_cache_start">Free up</string>
+    <string name="sub_setting_clear_cache_end">of space</string>
+    <string name="servers">Servers</string>
+    <string name="captions_built_in">Captions ( Built in )</string>
+    <string name="playback_speed">Playback Speed</string>
+    <string name="external_players">External Players</string>
+    <string name="choose_downloads_options">Choose Downloads Options</string>
+    <string name="current_localtion">Current location : </string>
+    <string name="pinned">PINNED</string>
+    <string name="grant">GRANT</string>
+    <string name="storage_warning">Storage access permission not given</string>
+    <string name="history_cleared">History has been cleared !</string>
+    <string name="nothing_selected">Nothing Selected</string>
+    <string name="need_storage_permission">\" needs storage permission to display file list\"</string>
+    <string name="new_episodes">NEW EPISODES</string>
+    <string name="successful_payment">Successful Payment</string>
+    <string name="please_press_to_close_this_page">Please Press to close this page</string>
+    <string name="networks">Networks</string>
+    <string name="networks_list_is_empty">Networks List is empty</string>
+    <string name="actress">Actress</string>
+    <string name="actor">Actor</string>
+    <string name="suggest_success">Your Suggestions has been submitted successfully</string>
+    <string name="yobex">https://codecanyon.net/user/yobex</string>
+    <string name="play_something">Play Something</string>
+    <string name="vpn_message">You are using vpn turn it off to countinue … !</string>
+    <string name="sniffer_message">You Cannot Run Any Sniffer when the app is running !</string>
+    <string name="pay_with_razorpay">Pay With RazorPay</string>
+    <string name="pay_with_pagseguro">Pay With PagSeguro</string>
+    <string name="by_tapping_the_button_you_agree_to_easyplex_term_amp_condition_and_privacy_policy"><![CDATA[By tapping the button, you agree to @string/app_name Term & Condition and Privacy Policy.]]></string>
+    <string name="login_to_subscribe">Login First to be able to subscribe</string>
+    <string name="check_your_inbox">Check your inbox</string>
+    <string name="resend_token">Resend Token</string>
+    <string name="your_email_is_not_verified">Your Email is not verified !</string>
+    <string name="verify_email_address">Verify Email Address</string>
+    <string name="suggestions_is_only_for_logged_users">Suggestions is only for Logged users</string>
+    <string name="popular_casters">POPULAR CASTERS</string>
+    <string name="casters">Casters</string>
+    <string name="watch_live_streaming">Watch Live Streaming</string>
+    <string name="rooted_message">You cannot run the app on a rooted device !</string>
+    <string name="download_disabled">Download system is currently disabled</string>
+    <string name="all_genres">All Genres</string>
+    <string name="latest_added">Latest Added</string>
+    <string name="by_rating">By Rating</string>
+    <string name="by_year">By Year</string>
+    <string name="by_views">By Views</string>
+    <string name="cannot_extract">Cannot Extract the video from the media</string>
+    <string name="ok">OK</string>
+    <string name="root_warning">You cannot run the app on a rooted device !</string>
+    <string name="cannot_load_subs">Cannot Load Substitles …</string>
+    <string name="free_episodes">Free Episodes</string>
+    <string name="from_your_lists">from your Lists ?</string>
+    <string name="enable_ffmpeg_extension">Enable FFmpeg extension</string>
+    <string name="enable_software_codec">Enable software codec</string>
+    <string name="download_location">Download Location</string>
+    <string name="current_location">Current location :</string>
+    <string name="substitles_background">Substitles Background</string>
+    <string name="reset_your_password">Reset Your Password</string>
+    <string name="send_reset_token">Send Reset Token</string>
+    <string name="msg_to_confirm">Check your inbox or spam folders , you can click restart when you complete the confirmation !</string>
+    
+    <string name="foreground_notification">Foreground notification</string>
+    <string name="download_running">In progress</string>
+    <string name="finished">Finished</string>
+    <string name="shutdown">Shutdown</string>
+    <!-- 1 d. 1 h. 1 m -->
+    <string name="elapsed_time_format_d_h_mm">%1$d d. %2$d h. %3$d m</string>
+    <!-- 1 h. 1 m. 1 s -->
+    <string name="elapsed_time_format_h_mm_ss">%1$d h. %2$d m. %3$d s</string>
+    <!-- 1 m. 1 s -->
+    <string name="elapsed_time_format_mm_ss">%1$d m. %2$d s</string>
+    <!-- 1 s -->
+    <string name="elapsed_time_format_ss">%1$d s</string>
+    <string name="cancel">Cancel</string>
+    <!-- A synonym for word "unmetered" - unlimited-->
+    <string name="unmetered_connections_only">Unmetered connections only</string>
+    <string name="connect">Connect</string>
+    <string name="add">Add</string>
+    <string name="not_available">N/A</string>
+    <string name="open_navigation_drawer">Open navigation drawer</string>
+    <string name="close_navigation_drawer">Close navigation drawer</string>
+    <string name="error_template">Error: %1$s</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="stopped">Stopped</string>
+    <string name="pending">Pending</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="menu">Menu</string>
+    <string name="select_all">Select all</string>
+    <string name="share_via">Share via</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="file">File</string>
+    <string name="folder">Folder</string>
+    <string name="downloading_metadata">Downloading metadata</string>
+    <string name="all">All</string>
+    <string name="search">Search</string>
+    <string name="about">About</string>
+    <string name="close">Close</string>
+    <string name="redownload">Redownload</string>
+    <string name="Default">Default</string>
+    <string name="warning">Warning</string>
+    <string name="apply">Apply</string>
+    <string name="report">Report</string>
+    <string name="more_details">More details</string>
+    <string name="clipboard">Clipboard</string>
+    <string name="verify">Verify</string>
+
+    <!-- Permission dialog -->
+    <string name="perm_denied_title">Permission denied</string>
+    <string name="perm_denied_warning">Without this permission app can\'t save files in memory on some devices and versions of Android. The app will not work properly. Are you sure you want to deny this permission?</string>
+
+    <!-- Download progress notification -->
+    <string name="download_ticker_notify">Downloading %1$s</string>
+
+    <!-- Foreground notification -->
+    <string name="app_running_in_the_background">the @string/app_name Downloads is running in the background</string>
+    <string name="pause_all">Pause all</string>
+    <string name="resume_all">Resume all</string>
+
+    <!-- Finish notification -->
+    <string name="download_finished_notify">Download finished</string>
+    <string name="open_using">Open using</string>
+
+    <!-- Pending notification -->
+    <string name="download_in_queue_ticker_notify">%1$s in queue</string>
+    <string name="waiting_for_network">Waiting for network</string>
+    <string name="waiting_for_retry">Waiting for retry</string>
+
+    <!-- Error notification -->
+    <string name="download_error_notify_title">Download error</string>
+
+    <!-- Applying params notification -->
+    <string name="applying_params_title">Applying params</string>
+    <string name="applying_params_for_downloads">Applying params for downloads</string>
+    <string name="applying_params_error_title">Applying params error for %1$s</string>
+
+    <!-- Add download dialog -->
+    <string name="add_download">Add download</string>
+    <string name="download_link">Link</string>
+    <string name="download_name">Name</string>
+    <string name="download_size">Size: %1$s</string>
+    <string name="download_retry">Retry</string>
+    <string name="download_advanced">Advanced</string>
+    <string name="download_user_agent">User agent</string>
+    <string name="download_error_empty_link">Please enter link</string>
+    <string name="download_error_empty_name">Please enter name</string>
+    <string name="download_error_no_enough_free_space">Not enough free space: %1$s free, but file size is %2$s</string>
+    <string name="download_error_name_is_not_correct">Correct name is \"%1$s\"</string>
+    <string name="fetch_error_default_fmt">Error: %1$s</string>
+    <string name="fetch_error_invalid_url">Invalid URL: %1$s</string>
+    <string name="fetch_error_network_disconnected">network is disconnected</string>
+    <string name="fetch_error_http_response">Error: server returned HTTP %1$d code</string>
+    <string name="fetch_error_io">IO error: %1$s</string>
+    <string name="unable_to_open_folder">Unable to open selected folder. Please try to select another folder</string>
+    <string name="unable_to_create_file">Unable to create file. Please try to select another folder</string>
+    <string name="partial_download_not_supported">This download doesn\'t support pause and downloading by pieces</string>
+    <string name="download_pieces_number_title">Number of pieces</string>
+    <string name="download_description">Description</string>
+    <string name="select_folder_to_save">Select the folder to save</string>
+    <string name="path">Path</string>
+    <string name="storage_free_space">Free space: %1$s</string>
+    <string name="add_download_error_invalid_url">Unable to add download: invalid URL</string>
+    <string name="checksum">Checksum</string>
+    <string name="add_dialog_checksum_description">MD5, SHA-256</string>
+    <string name="referer_description">%1$s header</string>
+    <string name="error_invalid_checksum">Invalid checksum</string>
+
+    <!-- Add user agent dialog -->
+    <string name="dialog_add_user_agent_title">Add user agent</string>
+
+    <!-- Main activity -->
+    <string name="fragment_title_queued">Queued</string>
+    <string name="fragment_title_completed">Completed</string>
+    <string name="download_list_empty">No downloads</string>
+    <string name="share_url">Share URL</string>
+    <string name="file_not_available">file not available!</string>
+    <plurals name="unable_sharing">
+        <item quantity="one">The file cannot be shared.</item>
+        <item quantity="other">The files cannot be shared.</item>
+    </plurals>
+    <!-- Navigation drawer -->
+    <!-- Category -->
+    <string name="drawer_category">Category</string>
+    <string name="drawer_category_others">Others</string>
+    <string name="drawer_category_documents">Documents</string>
+    <string name="drawer_category_images">Images</string>
+    <string name="drawer_category_video">Video</string>
+    <string name="drawer_category_apk">APK</string>
+    <string name="drawer_category_audio">Audio</string>
+    <string name="drawer_category_archives">Archives</string>
+    <!-- Status -->
+    <string name="drawer_status">Status</string>
+    <string name="drawer_status_running">Running</string>
+    <string name="drawer_status_stopped">Stopped</string>
+    <!-- Date added -->
+    <string name="drawer_date_added">Date added</string>
+    <string name="drawer_date_added_today">Today</string>
+    <string name="drawer_date_added_yesterday">Yesterday</string>
+    <string name="drawer_date_added_week">Week</string>
+    <string name="drawer_date_added_month">Month</string>
+    <string name="drawer_date_added_year">Year</string>
+    <!-- Sorting -->
+    <string name="drawer_sorting">Sorting</string>
+    <string name="drawer_sorting_date_added">Date added</string>
+    <string name="drawer_sorting_name">Name</string>
+    <string name="drawer_sorting_size">Size</string>
+    <string name="drawer_sorting_category">Category</string>
+    <string name="drawer_sorting_no_sorting">No sorting</string>
+
+    <!-- Download list item -->
+
+    <!-- downloaded/total • ETA • speed -->
+    <string name="download_queued_progress_template">%1$s/%2$s \u2022 %3$s \u2022 %4$s/s</string>
+    <!-- downloaded/total • status -->
+    <string name="download_queued_template">%1$s/%2$s \u2022 %3$s</string>
+    <!-- hostname • total -->
+    <string name="download_finished_template">%1$s \u2022 %2$s</string>
+    <string name="download_details">Details</string>
+    <string name="deleting">Deleting</string>
+    <string name="delete_selected_download">Delete the selected download? This operation cannot be undone</string>
+    <string name="delete_selected_downloads">Delete the selected downloads? This operation cannot be undone</string>
+    <string name="delete_with_downloaded_file">Delete with downloaded file</string>
+    <string name="error_verify_checksum">Invalid file checksum</string>
+
+    <!-- Filemanager dialog -->
+    <string name="dir_chooser_title">Folder selection</string>
+    <string name="file_chooser_title">File selection</string>
+    <string name="dialog_new_folder_title">New folder</string>
+    <string name="error_dialog_new_folder">Unable to create a new folder</string>
+    <string name="error_open_dir">Unable to open the folder</string>
+    <string name="home_directory">Home</string>
+    <!-- name (size) -->
+    <string name="permission_denied">Permission denied</string>
+    <string name="save_file">Save file</string>
+    <string name="file_name">File name</string>
+    <string name="error_file_exists">File already exists. Replace it?</string>
+    <string name="file_name_is_empty">File name cannot be empty</string>
+    <string name="system_manager">System manager</string>
+    <string name="device_does_not_support_this_feature">Your device doesn\'t support this feature</string>
+    <string name="system_file_manager_not_found">System file manager not found</string>
+    <string name="replace_file">Replace file</string>
+
+    <!-- Details download dialog -->
+    <string name="detail_downloaded">Downloaded</string>
+    <!-- downloaded/total (percent) -->
+    <string name="detail_downloaded_format">%1$s/%2$s (%3$d%%)</string>
+    <string name="detail_pieces">Pieces</string>
+    <string name="detail_date_added">Date added</string>
+    <string name="detail_user_agent">User agent</string>
+    <string name="detail_md5_hash_sum">MD5</string>
+    <string name="detail_sha256_hash_sum">SHA-256</string>
+    <string name="calculate">Calculate</string>
+
+    <!-- Error report -->
+    <string name="app_error_occurred">The app error occurred. You can send the report to developers</string>
+    <string name="error_comment_prompt">You can add extra information and comments here:</string>
+
+    <!-- Send text to clipboard -->
+    <string name="send_text_to_clipboard">Copy</string>
+    <string name="text_copied_to_clipboard">Text copied to clipboard</string>
+
+    <!-- Browser -->
+    <string name="browser">Browser</string>
+    <string name="browser_app"> the @string/app_name Browser</string>
+    <string name="webview_is_required">WebView is required to work</string>
+    <string name="browser_forward_arrow">Forward</string>
+    <string name="browser_desktop_version">Desktop version</string>
+    <string name="browser_address_bar_hint">Enter address or query</string>
+    <string name="browser_back_pressed">Press again to close</string>
+    <string name="browser_secure_connection">Secure connection</string>
+    <string name="browser_download_from_link">Download</string>
+    <string name="browser_copy_link">Copy link</string>
+    <!-- Browser bookmarks -->
+    <string name="browser_bookmarks">Bookmarks</string>
+    <string name="bookmarks_list_empty">No bookmarks</string>
+    <string name="browser_add_bookmark">Add bookmark</string>
+    <string name="browser_edit_bookmark">Edit bookmark</string>
+    <!-- Edit bookmark dialog -->
+    <string name="browser_bookmark_name">Name</string>
+    <string name="browser_bookmark_url">URL</string>
+    <string name="browser_bookmark_error_empty_url">Please enter URL</string>
+    <string name="browser_bookmark_error_empty_name">Please enter name</string>
+    <plurals name="browser_bookmark_deleted">
+        <item quantity="one">Bookmark deleted</item>
+        <item quantity="other">Bookmarks deleted</item>
+    </plurals>
+    <plurals name="browser_bookmark_delete_failed">
+        <item quantity="one">Failed to delete bookmark</item>
+        <item quantity="other">Failed to delete bookmarks</item>
+    </plurals>
+    <string name="browser_bookmark_change_failed">Failed to change bookmark</string>
+    <string name="browser_bookmark_added">Bookmark added</string>
+    <string name="browser_bookmark_add_failed">Failed to add bookmark</string>
+    <string name="browser_bookmark_edit_menu">Edit</string>
+
+    <!-- Settings -->
+    <!-- Headers -->
+    <string name="pref_header_appearance">Appearance</string>
+    <string name="pref_header_behavior">Behavior</string>
+    <string name="pref_header_limitations">Limitations</string>
+    <string name="pref_header_storage">Storage</string>
+    <string name="pref_header_browser">Browser</string>
+    <!-- Appearance settings -->
+    <string name="pref_theme_category">Theme settings</string>
+    <string name="pref_theme_title">Theme</string>
+    <string-array name="pref_theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Black</item>
+    </string-array>
+    <string name="pref_notification_category">Notification settings</string>
+    <string name="pref_progress_notify_title">Progress notification</string>
+    <string name="pref_finish_notify_title">Finish notification</string>
+    <string name="pref_pending_notify_title">Pending notification</string>
+    <string name="pref_play_sound_notify_title">Play sound</string>
+    <string name="pref_notify_sound_title">Notification sound</string>
+    <string name="pref_led_indicator_notify_title">LED indicator</string>
+    <string name="pref_led_indicator_color_notify_title">LED indicator color</string>
+    <string name="pref_vibration_notify_title">Vibration</string>
+    <string name="theme_settings_apply_after_reboot">Theme settings will be applied after restarting the app</string>
+    <!-- Behavior settings -->
+    <string name="pref_autostart_title">Autostart</string>
+    <string name="pref_autostart_summary">Run the app after start device and start downloads, if they weren\'t manually paused</string>
+    <!-- A synonym for word "unmetered" - unlimited-->
+    <string name="pref_umnetered_connections_only_title">Unmetered connections only</string>
+    <string name="pref_umnetered_connections_only_summary">Download only over unmetered connections (for example, Wi-Fi or Ethernet)</string>
+    <string name="pref_power_management_category">Power management</string>
+    <string name="pref_cpu_do_not_sleep_title">Keep CPU awake</string>
+    <string name="pref_cpu_do_not_sleep_summary">Enabling this will increase the battery usage. Use this option if the download speed reduces when screen turns off</string>
+    <string name="pref_download_only_when_charging_title">Download only when charging</string>
+    <string name="pref_download_only_when_charging_summary">If enabled, downloading will occur only during charging. All downloads will pause when not connected to charger</string>
+    <string name="pref_battery_control_title">Battery control</string>
+    <string name="pref_custom_battery_control_title">Custom battery percentage</string>
+    <string name="pref_custom_battery_control_value_title">Battery control percentage</string>
+    <string name="pref_battery_control_summary">All downloads will be paused if the battery level goes below %1$d%%. Limit doesn\'t apply at the time of charging</string>
+    <string name="pref_custom_battery_control_summary">Set a custom percentage to pause downloads at if the battery drops below the given threshold. Enabling this will ignore the default %1$d%% threshold</string>
+    <string name="pref_custom_battery_control_dialog_summary">Setting a custom battery percentage for the application to watch for will have a negative impact on battery life while downloads are occurring. Are you sure you want to enable this?</string>
+    <string name="pref_enable_roaming_title">Enable roaming</string>
+    <string name="pref_enable_roaming_summary">Download only if the device isn\'t roaming</string>
+    <string name="pref_replace_duplicate_downloads_title">Replace duplicate downloads</string>
+    <string name="pref_replace_duplicate_downloads_summary">Replace duplicate downloads (with the same URL) when added that are already in the list</string>
+    <string name="pref_auto_connect_title">Auto connect</string>
+    <string name="pref_auto_connect_summary">Auto connect when opening the add dialog</string>
+    <string name="pref_timeout_title">Timeout</string>
+    <string name="pref_timeout_summary">The number of milliseconds to wait before the connection timed out. Zero is interpreted as an infinite timeout</string>
+    <!-- Limitation settings -->
+    <string name="pref_max_active_downloads_title">Maximum active downloads</string>
+    <string name="pref_max_download_retries_title">Maximum number of download retries</string>
+    <string name="pref_max_download_retries_dialog_msg">0 - without retries</string>
+    <string name="pref_speed_limit_title">Speed limit for one piece</string>
+    <string name="pref_speed_limit_dialog_hint">Set speed in KiB/s (0 - without limit)</string>
+    <!-- Storage settings -->
+    <string name="pref_save_downloads_in_title">Save downloads in</string>
+    <string name="pref_move_after_download_title">Move after download</string>
+    <string name="pref_move_after_download_in_title">Move after download in</string>
+    <string name="pref_delete_file_if_error_title">Delete file if an error occurs</string>
+    <string name="pref_preallocate_disk_space_title">Pre-allocate disk space for the file</string>
+    <string name="pref_preallocate_disk_space_summary">Available for Android 5.0 Lollipop and above</string>
+
+
+    <!-- Browser settings -->
+    <string name="pref_browser_bottom_address_bar_title">Address bar at the bottom</string>
+    <string name="pref_browser_bottom_address_bar_summary">The address bar will be located at the bottom of the screen</string>
+    <string name="pref_browser_start_page_title">Start page</string>
+    <string name="pref_browser_allow_java_script_title">Allow Java Script</string>
+    <string name="pref_browser_allow_popup_windows_title">Allow popup windows</string>
+    <string name="pref_browser_cache_category">Cache</string>
+    <string name="pref_browser_cookies_category">Cookies</string>
+    <string name="pref_browser_enable_caching_title">Enable caching</string>
+    <string name="pref_browser_enable_cookies_title">Enable cookies</string>
+    <string name="pref_browser_delete_cookies_title">Delete cookies</string>
+    <string name="pref_browser_delete_cookies_done">Deleted all the cookies</string>
+    <string name="pref_browser_clear_cache_title">Clear cache</string>
+    <string name="pref_browser_clear_cache_done">The cache is cleared</string>
+    <string name="pref_browser_do_not_track_title">Do Not Track</string>
+    <string name="pref_browser_do_not_track_summary">Send a “Do Not Track” request to websites you visit</string>
+    <string name="pref_browser_launcher_icon_title">Browser icon in the launcher</string>
+    <string name="pref_browser_disable_from_system_title">Disable browser from the system</string>
+    <string name="pref_browser_disable_from_system_summary">Browser will not be available for opening links</string>
+    <string name="pref_browser_search_engine_title">Search engine</string>
+    <string name="pref_browser_hide_menu_icon_title">Hide icon from menu</string>
+    <string name="pref_browser_hide_menu_icon_summary">Hide browser icon from the main screen menu</string>
+
+    <!-- About dialog -->
+    <string name="about_title">About Download @string/app_name</string>
+    <string name="about_description"/>
+    <string name="about_changelog">Changelog</string>
+
+
+    <string name="referer">HTTP Referer</string>
+    <!-- Settings -->
+    <!-- Appearance settings -->
+    <string name="pref_theme_light_value">0</string>
+    <string name="pref_theme_dark_value">1</string>
+    <string name="pref_theme_black_value">2</string>
+    <string-array name="pref_theme_entries_value" translatable="false">
+        <item>@string/pref_theme_light_value</item>
+        <item>@string/pref_theme_dark_value</item>
+        <item>@string/pref_theme_black_value</item>
+    </string-array>
+
+    <!-- About dialog -->
+    <string name="about_changelog_link">https://codecanyon.net/item/easyplex-movies-live-streaming-tv-series-anime/28462799</string>
+    <string name="search_results">Search Results</string>
+    <string name="exit_the_app">Press again to exit app</string>
+    <string name="access_code">Wrong Access Code</string>
+    <string name="completed_download_message_fragment">This is where you\'ll see the shows and movies we download for your. Check back later to see what we\'ve found</string>
+    <string name="queue_download_message_fragment">This is where you\'ll see the shows and movies in queue mode. try to add some download and Check back later to see what we\'ve found</string>
+    <string name="queue_is_empty">Queue is empty !</string>
+    <string name="completed_is_empty">Completed is empty</string>
+    <string name="non_verified">Non Verified</string>
+    <string name="verified">Verified</string>
+    <string name="rest_confirmation_mail">\"A reset confirmation email sent to \"</string>
+    <string name="episode">Episode</string>
+    <string name="remove_watch_list">Removed From Watchlist</string>
+
+
+
+    <string name="unexpected_intent_action">Unexpected intent action: <xliff:g id="action">%1$s</xliff:g></string>
+
+    <string name="error_cleartext_not_permitted">Cleartext HTTP traffic not permitted. See https://exoplayer.dev/issues/cleartext-not-permitted</string>
+
+    <string name="error_generic">Playback failed</string>
+
+    <string name="error_drm_unsupported_before_api_18">DRM content not supported on API levels below 18</string>
+
+    <string name="error_drm_unsupported_scheme">This device does not support the required DRM scheme</string>
+
+    <string name="error_no_decoder">This device does not provide a decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+    <string name="error_no_secure_decoder">This device does not provide a secure decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+    <string name="error_querying_decoders">Unable to query device decoders</string>
+
+    <string name="error_instantiating_decoder">Unable to instantiate decoder <xliff:g id="decoder_name">%1$s</xliff:g></string>
+
+    <string name="error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
+
+    <string name="error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
+
+    <string name="storage_permission_denied">Permission to access storage was denied</string>
+
+    <string name="sample_list_load_error">One or more sample lists failed to load</string>
+
+    <string name="download_start_error">Failed to start download</string>
+
+    <string name="download_start_error_offline_license">Failed to obtain offline license</string>
+
+    <string name="prefer_extension_decoders">Prefer extension decoders</string>
+    <string name="main_player">Main Player</string>
+    <string name="vlc">VLC</string>
+    <string name="mx_player">MX PLAYER</string>
+    <string name="web_video_caster">Web Video Caster</string>
+    <string name="comments">COMMENTS</string>
+    <string name="lbl_justnow">Just Now</string>
+    <string name="lbl_seconds_ago">seconds ago</string>
+    <string name="lbl_min_ago">min ago</string>
+    <string name="lbl_mins_ago">mins ago</string>
+    <string name="lbl_hr_ago">hr ago</string>
+    <string name="lbl_hrs_ago">hrs ago</string>
+    <string name="lbl_day_ago">day ago</string>
+    <string name="lbl_days_ago">days ago</string>
+    <string name="lbl_lstweek_ago">last week</string>
+    <string name="lbl_week_ago">weeks ago</string>
+    <string name="lbl_onemonth_ago">1 month ago</string>
+    <string name="lbl_month_ago">months ago</string>
+    <string name="lbl_oneyear_ago" >last year</string>
+    <string name="lbl_year_ago" >years ago</string>
+    <string name="report_sent">Your report has been submitted successfully</string>
+    <string name="screen_locked">Screen Locked</string>
+    <string name="tap_to_unlock">Tap to Unlock</string>
+    <string name="unlock_control">Unlock Control ?</string>
+    <string name="lock">Lock</string>
+    <string name="how_to_get_the_code">How to get the code ?</string>
+    <string name="using_1dm">USING 1DM</string>
+    <string name="using_adm">USING ADM</string>
+    <string name="using_app">APP</string>
+    <string name="genres_lists_empty">Unable to Get Genres Lists</string>
+    <string name="substitles_empty">No Substitles Found for this media</string>
+    <string name="play_with_web_video_caster">Play with Web Video Caster</string>
+    <string name="comment_sent">Comment added successfully</string>
+    <string name="trailer_not_found">No Trailer Found</string>
+    <string name="login_to_comment">You need to login to able to add a comment !</string>
+    <string name="default_lang_substitles">Default Subtitle</string>
+    <string name="current_default_lang2">Current Default Language : %s</string>
+    <string name="default_langs_substitles">Default Subtitle Langs..</string>
+    <string name="comments_size"> Comments </string>
+    <string name="comment_not_deleted">could not be deleted</string>
+    <string name="comment_deleted">Successfully deleted</string>
+    <string name="type_comment">Type a word to able to comment !</string>
+    <string name="delete_user">Unable to delete your account !</string>
+    <string name="app_versions">"Version : "</string>
+    <string name="added_mylist">Added</string>
+    <string name="removed_mylist">Removed: </string>
+    <string name="unable_to_register_please_try_again">Unable to register please try again</string>
+    <string name="write_comment">Write a a comment…</string>
+    <string name="there_are_no_comments">No Comments</string>
+    <string name="current_subtitle">Current subtitle size : %s</string>
+    <string name="fonts_size">Fonts Size</string>
+    <string name="current_color">Current Substitle Color : %s</string>
+    <string name="bg_font_color">Substitle Font Color..</string>
+    <string name="filmographie">Filmographie</string>
+    <string name="rewards_ads_not_ready">The rewarded ad wasn\'t ready yet</string>
+    <string name="add_profile">Add Profile</string>
+    <string name="manage_profiles">Manage Profiles</string>
+    <string name="editmod_profiles">Close Edit Mode</string>
+    <string name="who_s_watching">Who\'s Watching ?</string>
+    <string name="byteen" translatable="false">/10</string>
+    <string name="rating_sent">Review has been sent Successfully</string>
+    <string name="review_sent">Review has been sent successfully</string>
+    <string name="review_require_login">Login is required to be able to rate!</string>
+    <string name="upload_avatar">Upload Avatar</string>
+    <string name="enter">Enter</string>
+    <string name="get_password">Get Password</string>
+    <string name="search_on_youtube">Search on YouTube</string>
+    <string name="no_trailer_has_been_found_click_below_to_search_on_youtube">No Trailer has been found , click below to search on youtube</string>
+    <string name="failed_to_load_required_informations_client_id_is_not_valid">Failed to load required informations , Client ID is not valid</string>
+    <string name="the_rewarded_ad_wasn_t_loaded_yet_or_completed">The rewarded ad wasn\'t loaded yet or Completed</string>
+    <string name="type_to_comment">Type a word to able to comment !</string>
+    <string name="please_uninstall_your_sniffer_to_be_able_to_use_the_app">Please Uninstall Your Sniffer to be able to use the app !</string>
+    <string name="added_to_watchlist">Added To Watchlist</string>
+    <string name="story">Story</string>
+    <string name="caracters">Caracters</string>
+    <string name="animation">Animation</string>
+    <string name="music">Music</string>
+    <string name="submit">Submit</string>
+    <string name="send">Send</string>
+    <string name="checking_your_login_info">Checking Your Login Info....</string>
+    <string name="biography">Biography</string>
+    <string name="place">place</string>
+    <string name="profile_updated">\"Your profile has been updated successfully ! \"</string>
+    <string name="profile_update_error">\"Your profile is not  updated ! \"</string>
+    <string name="countdown_wait">You Must wait until the countdown finish before sending the confirmation code again</string>
+    <string name="phone_is_empty">Please fill the phone number</string>
+    <string name="quota_exceeded">The SMS quota for the project has been exceeded</string>
+    <string name="invalid_request">Invalid request</string>
+    <string name="sms_sent">The SMS verification code has been sent to the provided phone number</string>
+    <string name="profile_limit">you cannot create more than 5 profiles on the same account</string>
+    <string name="profile_added">Profile Added Successfully</string>
+    <string name="error_occured">An error has been occurred</string>
+    <string name="profile_name_placeholder">Profile Name…</string>
+    <string name="choose_season">Choose a season</string>
+    <string name="choose">Choose</string>
+    <string name="comment_size_views">"Comments : "</string>
+    <string name="stream_is_currently_not_available_for_this_media">Stream is currently not available for this Media</string>
+    <string name="download_is_currently_not_available_for_this_media">Download is currently not available for this Media</string>
+    <string name="max_devices">You\'ve reached the maximum number of devices allowed on your account</string>
+    <string name="maximum_devices_allowed_is">Maximum Devices Allowed is : </string>
+    <string name="delete_more_devices_to_coutinue">Delete more devices to coutinue !</string>
+    <string name="verify_account">Verify Account</string>
+    <string name="devices_management">Devices Management</string>
+    <string name="you_must_be_logged_in_to_watch_the_stream">You must be logged in to watch the stream</string>
+    <string name="browse">Browse</string>
+    <string name="languages">Languages</string>
+
+    <string name="read_more">Read more</string>
+    <string name="read_less">Read less</string>
+    <string name="watch_in_your_language">Watch in your Language</string>
+    <string name="apply_coupon">Apply Coupon</string>
+    <string name="whoops">Whoops!</string>
+    <string name="no_internet_connections">No internet connections found. Check your connection or try again</string>
+    <string name="internet_connection_active">Internet connection active</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="account_banned">Your Account is banned contact the support for more info !</string>
+    <string name="you_must_be_logged_in_to_download_the_stream">You must be logged in to download the stream</string>
+    <string name="error_loading_app_settings">Error Loading App Settings. Make sure you are using the right API Address.</string>
+    <string name="error_loading_api_please_check">Error Loading API. Please check your correct API address!</string>
+    <string name="please_enter_a_coupon_code_before_coutinue">Please enter a coupon code before coutinue !</string>
+    <string name="error_sending_the_email">Error Sending the email ! check your smtp config</string>
+    <string name="be_the_first_one_to_comment">Be the first one to comment !</string>
+    <string name="you_must_login_before_manage_devices">You Must Login before Manage Devices !</string>
+    <string name="your_token_has_expired_try_to_login_again">Your Token has expired try to login again</string>
+    <string name="profile_deleted">Profile Deleted !</string>
+    <string name="view_all">VIEW ALL</string>
+    <string name="device_deleted">Device Deleted !</string>
+    <string name="select_your_languages">Select Your Languages</string>
+    <string name="get_app_signature">Get App Signature</string>
+    <string name="clear_search_history">Clear Search history</string>
+    <string name="change_app_languages">App languages</string>
+    <string name="download_options">DownLoad Options</string>
+    <string name="select_item">Select Item</string>
+    <string name="you_must_choose_a_profile_name_before_choosing_an_avatar">You must choose a profile name before choosing an avatar !</string>
+    <string name="collections">Collections</string>
+    <string name="are_you_sure_you_want_to_delete_your_account">Are you sure you want to delete your account ?</string>
+    <string name="your_account_is_already_verified">Your Account is already verified</string>
+    <string name="latest_movies">Latest Movies</string>
+    <string name="login_code_android_tv">Login Code ( Android TV )</string>
+    <string name="login_code_to_able_to_connect_your_mobile_app_to_the_upcoming_android_tv_version">login code to able to connect your mobile app to the upcoming Android TV version</string>
+    <string name="maturity_rating">Maturity Rating</string>
+    <string name="batter_optimize">You must use No restrictions to able to receive notifications</string>
+    <string name="notifications">Notifications</string>
+    <string name="there_is_no_notifications_to_show">There is no notifications to show !</string>
+
+    <string name="just_now">Just now</string>
+    <string name="error_loading_playlist">Error Loading Playlist !</string>
+    <string name="all_notifications_has_been_deleted">All notifications has been deleted !</string>
+    <plurals name="minutes_ago">
+        <item quantity="one">%d minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="one">%d hour ago</item>
+        <item quantity="other">%d hours ago</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+
+
+
+    <string name="movie">Movie</string>
+    <string name="serie">Serie</string>
+    <string name="anime">Anime</string>
+
+</resources>

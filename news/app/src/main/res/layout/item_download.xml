@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/downloadList"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:background="@drawable/selected_season"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:focusable="true"
+        >
+
+
+        <TextView
+            android:id="@+id/movietitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/home"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</layout>
+
+
+

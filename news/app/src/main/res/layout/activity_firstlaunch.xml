@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View" />
+        <variable
+            name="controller"
+            type="com.easyplexdemoapp.ui.users.MenuHandler" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fragment_content_detail_overlay_end"
+        android:orientation="vertical"
+        android:textDirection="locale"
+        android:layoutDirection="locale"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/lyt_no_connection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            app:layout_constraintBottom_toTopOf="@+id/tubi_tv_controller_guideline_bottom"
+            app:layout_constraintRight_toLeftOf="@id/tubi_tv_controller_guideline_right"
+            app:layout_constraintLeft_toLeftOf="@id/tubi_tv_controller_guideline_left"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/select_your_languages"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/grey_11"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif-black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.easyplexdemoapp.ui.downloadmanager.ui.customview.EmptyRecyclerView
+                    android:id="@+id/rv_langs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/pixel_10dp"
+                    android:nestedScrollingEnabled="false"
+                    tools:listitem="@layout/item_lang" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/apply"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/tubi_tv_controller_guideline_bottom"
+            app:layout_constraintRight_toLeftOf="@id/tubi_tv_controller_guideline_right"
+            app:layout_constraintLeft_toLeftOf="@id/tubi_tv_controller_guideline_left"
+            android:background="@drawable/btn_gradient_white_login"
+            android:gravity="start|center">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/apply"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textDirection="locale" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/tubi_tv_controller_guideline_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="32dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/tubi_tv_controller_guideline_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="@dimen/pixel_20dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/tubi_tv_controller_guideline_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="@dimen/pixel_20dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/tubi_tv_controller_guideline_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_end="@dimen/pixel_20dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/tubi_tv_controller_guideline_seek_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="84dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@id/tubi_tv_controller_guideline_seek_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="84dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/widget_margin"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="@color/bottomnavigationbgcolor">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/epcover"
+            android:layout_width="123dp"
+            android:layout_height="71dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerInside"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="71dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/item_download_shadow"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerInside"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_toStartOf="@id/menu"
+            android:layout_toEndOf="@id/epcover"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mediaName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:gravity="center"
+                android:text="@string/movie_original_label"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/grey_11"
+                android:textSize="12sp"
+                app:fontFamily="sans-serif-black" />
+
+            <TextView
+                android:id="@+id/mediatype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:text="mediatype"
+                android:visibility="gone"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+            <TextView
+                android:id="@+id/filename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:text="media_video_name"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse"
+                android:textColor="@color/grey_11"
+                style="@style/L_Micro"
+                android:fontFamily="@font/vaud_light"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:text="status"
+                android:singleLine="true"
+                android:maxLines="2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse"
+                android:textColor="@color/grey_11"
+                style="@style/L_Micro"
+                android:fontFamily="@font/vaud_light"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/download_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/view_bg"
+                android:paddingEnd="7dp"
+                android:layout_marginTop="3dp"
+                android:text="Episode"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingStart="7dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginBottom="7dp"
+                style="@style/H100"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/menu"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="?attr/transparentRoundRipple"
+            android:contentDescription="@string/menu"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_more_vert_grey600_24dp" />
+
+
+        <TextView
+            android:id="@+id/selected"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/vip"
+            android:paddingStart="4dp"
+            android:paddingTop="3dp"
+            android:paddingEnd="4dp"
+            android:paddingBottom="4dp"
+            android:layout_marginStart="5dp"
+            android:text="selected"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:visibility="gone"
+            android:gravity="end"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/grey_11"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-black" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

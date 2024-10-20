@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layoutDirection="ltr"
+        android:layout_gravity="bottom"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:paddingTop="5dp"
+            android:background="@drawable/dialog_radius_dark"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/relative_layout_comment_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <LinearLayout
+                        android:layout_marginEnd="50dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <ImageView
+                            android:padding="15dp"
+                            app:srcCompat="@drawable/ic_comment"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            app:tint="@color/main_color" />
+
+                        <TextView
+                            android:id="@+id/comment_total"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:gravity="center"
+                            android:textColor="@color/grey_11"
+                            android:text="0 Comments"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/bt_close"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentEnd="true"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_close"
+                        app:tint="@color/main_color"
+                        tools:ignore="PrivateResource" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp">
+
+                        <ImageView
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:visibility="gone"
+                            android:padding="40dp"
+                            android:adjustViewBounds="true"
+                            android:clickable="true"
+                            android:id="@+id/image_view_comment_dialog_empty"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:focusable="true" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_comments"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:visibility="visible" />
+
+                        <LinearLayout
+                            android:id="@+id/no_comment_found"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginTop="@dimen/pixel_10dp"
+                            android:visibility="visible">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/spacing_medium"
+                                android:gravity="center"
+                                android:text="@string/there_are_no_comments"
+                                android:textColor="@color/grey_40" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/spacing_medium">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/spacing_small"
+                        android:layout_weight="1"
+                        app:cardBackgroundColor="@android:color/white"
+                        app:cardCornerRadius="18dp"
+                        app:cardElevation="1dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/spacing_xmlarge"
+                            android:paddingLeft="@dimen/spacing_small"
+                            android:paddingRight="@dimen/spacing_small"
+                            android:orientation="horizontal">
+
+
+                            <EditText
+                                android:id="@+id/comment_message"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="10dp"
+                                android:layout_weight="1"
+                                android:autofillHints="comments"
+                                android:background="@android:color/transparent"
+                                android:hint="@string/write_comment"
+                                android:textColor="@color/grey"
+                                android:imeOptions="actionSearch"
+                                android:padding="@dimen/spacing_middle"
+                                android:textDirection="ltr"
+                                android:textSize="14sp" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/add_comment_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/spacing_small"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:tint="@color/black"
+                        app:backgroundTint="@color/white"
+                        app:elevation="1dp"
+                        app:fabSize="mini"
+                        app:srcCompat="@drawable/ic_comment"
+                        app:useCompatPadding="false"
+                        android:focusable="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

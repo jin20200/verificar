@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "281054052095",
+    "project_id": "easyplex-a81ed",
+    "storage_bucket": "easyplex-a81ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281054052095:android:3cb793267f7234548d16ca",
+        "android_client_info": {
+          "package_name": "com.bigcine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281054052095-8hnh4e1hg66obvi4qtj6unqaee8v5v0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpERoWaPfafbjr6Ah8V0rnCvR4hFeIrTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281054052095-8hnh4e1hg66obvi4qtj6unqaee8v5v0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281054052095:android:c1ea2c886b33b3408d16ca",
+        "android_client_info": {
+          "package_name": "com.easyplexdemoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281054052095-8hnh4e1hg66obvi4qtj6unqaee8v5v0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpERoWaPfafbjr6Ah8V0rnCvR4hFeIrTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281054052095-8hnh4e1hg66obvi4qtj6unqaee8v5v0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

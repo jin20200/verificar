@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/epLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clipToPadding="false"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <FrameLayout
+            android:id="@+id/cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/epcover"
+                android:layout_width="123dp"
+                android:layout_height="71dp"
+                android:scaleType="centerInside"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/playbutton"
+                android:contentDescription="@string/image" />
+
+
+
+            <ProgressBar
+                android:id="@+id/resume_progress_bar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="123dp"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:indeterminate="false"
+                android:progressDrawable="@drawable/content_detail_progress" />
+
+
+        </FrameLayout>
+
+
+        <ImageButton
+            android:id="@+id/downloadEpisode"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_delete"
+            tools:ignore="ContentDescription"
+            app:tint="@color/grey_11" />
+
+
+
+        <TextView
+            android:id="@+id/eptitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/grid_leftright_padding"
+            android:layout_marginTop="15dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:maxLength="20"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/grey_11"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toRightOf="@+id/cardView"
+            app:layout_constraintBottom_toTopOf="@+id/epoverview"
+            tools:text="Some Show Title" />
+
+
+
+
+        <TextView
+            android:id="@+id/epoverview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/grid_leftright_padding"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:layout_marginEnd="30dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/grey_11"
+            android:textSize="11sp"
+            app:layout_constraintLeft_toRightOf="@+id/cardView"
+            app:layout_constraintRight_toLeftOf="@+id/downloadEpisode"
+            app:layout_constraintTop_toBottomOf="@+id/eptitle"
+            tools:text="10x456 Some Very Cool Episode Title Therefore10x456 Some Very Cool Episode Title Therefore10x456 Some Very Cool Episode Title Therefore" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

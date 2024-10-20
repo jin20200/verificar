@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginEnd="5dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/bottomnavigationbgcolor"
+        android:innerRadius="5dp"
+        app:cardCornerRadius="15dp"
+        android:thicknessRatio="5">
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/rootLayout"
+            style="@style/RippleStyleBlack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/rootLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clipToPadding="false">
+
+                <!-- The support CardView adds padding for compat shadows on pre-v21, adjust accordingly. -->
+                <FrameLayout
+                    android:id="@+id/cardView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="MissingConstraints">
+
+
+
+                    <com.easyplexdemoapp.util.GridItemImageView
+                        android:id="@+id/itemMovieImage"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:scaleType="centerCrop" />
+
+
+                    <ProgressBar
+                        android:id="@+id/resume_progress_bar"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="250dp"
+                        android:layout_height="5dp"
+                        android:layout_gravity="bottom"
+                        android:progress="50"
+                        android:indeterminate="false"
+                        android:progressDrawable="@drawable/content_detail_progress" />
+
+
+                    <LinearLayout
+                        android:id="@+id/lineaTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="start"
+                        android:layout_gravity="bottom|start"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/timeRemaning"
+                            android:gravity="center"
+                            android:background="@drawable/view_bg"
+                            android:paddingStart="7dp"
+                            android:paddingEnd="7dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_margin="@dimen/spacing_middle"
+                            android:text=""
+                            android:textStyle="bold"
+                            android:shadowColor="@color/black"
+                            android:shadowRadius="15"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_width="wrap_content"
+                            app:layout_constraintLeft_toRightOf="@+id/eptitle"
+                            android:layout_height="18dp"
+                            style="@style/H100" />
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    app:layout_constraintTop_toBottomOf="@id/cardView"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <TextView
+                        android:id="@+id/movietitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:textStyle="bold"
+                        android:gravity="start"
+                        android:lineSpacingExtra="-5dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_20"
+                        android:textSize="10sp"
+                        tools:text="@string/title" />
+
+                    <TextView
+                        android:id="@+id/episode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_newepisodes"
+                        android:padding="2dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="@color/white"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:visibility="gone"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/cardView"
+                        tools:text="الحلقة" />
+
+                </LinearLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="bottom"
+            android:layout_gravity="bottom|end"
+            android:orientation="vertical"
+            android:layout_marginBottom="55dp">
+
+            <ImageButton
+                android:id="@+id/infoHistory"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_margin="@dimen/spacing_middle"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/image"
+                app:srcCompat="@drawable/ic_info"
+                android:scaleType="centerInside"
+                app:tint="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:orientation="vertical">
+
+            <com.easyplexdemoapp.util.GridItemImageView
+                android:id="@+id/deleteFromHistory"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_margin="@dimen/spacing_middle"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/image"
+                app:srcCompat="@drawable/ic_delete"
+                app:tint="@color/white" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

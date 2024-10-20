@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.QUICKBOOT_POWERON" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_ACTIVE_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="33" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permifControllerActivityssion.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"  />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <uses-permission
+        android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+        android:minSdkVersion="34" />
+
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+
+
+
+    <queries>
+        <package android:name="org.blokada.alarm.dnschanger" />
+        <package android:name="com.adguard.android.contentblocker" />
+        <package android:name="com.protectstar.adblocker" />
+        <package android:name="tech.httptoolkit.android" />
+        <package android:name="tech.httptoolkit.android.v1" />
+        <package android:name="com.guoshi.httpcanary.premium" />
+        <package android:name="com.hsv.freeadblockerbrowser" />
+        <package android:name="s.sdownload.adblockerultimatebrowser" />
+        <package android:name="com.egorovandreyrm.pcapremote" />
+        <package android:name="com.packagesniffer.frtparlak" />
+        <package android:name="jp.co.taosoftware.android.packetcapture" />
+        <package android:name="app.greyshirts.sslcapture" />
+        <package android:name="com.minhui.networkcapture.pro" />
+        <package android:name="com.minhui.networkcapture" />
+        <package android:name="com.evbadroid.wicapdemo" />
+        <package android:name="com.evbadroid.wicap" />
+        <package android:name="com.luckypatchers.luckypatcherinstaller" />
+        <package android:name="ru.UbLBBRLf.jSziIaUjL" />
+        <package android:name="com.emanuelef.remote_capture" />
+        <package android:name="com.minhui.wifianalyzer" />
+        <package android:name="com.evbadroid.proxymon" />
+        <package android:name="com.thirdparty.superuser" />
+        <package android:name="org.adaway" />
+        <package android:name="eu.chainfire.supersu" />
+        <package android:name="com.noshufou.android.su" />
+        <package android:name="com.koushikdutta.superuser" />
+        <package android:name="com.zachspong.temprootremovejb" />
+        <package android:name="com.ramdroid.appquarantine" />
+        <package android:name="com.topjohnwu.magisk" />
+    </queries>
+
+    <application
+        android:name="com.easyplexdemoapp.EasyPlexApp"
+        android:fullBackupContent="true"
+        android:fullBackupOnly="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/mainlogo"
+        android:roundIcon="@drawable/mainlogo"
+        android:label="@string/app_name"
+        android:targetSdkVersion="34"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:fullBackupContent,name"
+        tools:targetApi="s"
+        tools:ignore="AllowBackup"
+        android:dataExtractionRules="@xml/data_extraction_rules">
+
+
+        <activity
+            android:name=".ui.downloadmanager.ui.browser.BrowserActivity"
+            android:label="@string/browser"
+            android:theme="@style/Theme.MaterialComponents.Light"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize"
+            android:launchMode="singleInstance"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="orientation|screenSize"
+            tools:replace="android:configChanges" />
+
+        <activity
+            android:name="com.ironsource.sdk.controller.ControllerActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.ironsource.sdk.controller.InterstitialActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="behind"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.ironsource.sdk.controller.OpenUrlActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <provider
+            android:authorities="${applicationId}.IronsourceLifecycleProvider"
+            android:name="com.ironsource.lifecycle.IronsourceLifecycleProvider" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.easyplexdemoapp.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="SUJIVtPZIqN_iX_A5zRTsi7M1tu4aAyxTEz3JC" />
+
+        <meta-data
+            android:name="applovin.sdk.verbose_logging"
+            android:value="false" />
+
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/fb_login_protocol_scheme" />
+
+
+        <activity android:name=".ui.downloadmanager.ui.settings.PreferenceActivity" />
+
+
+        <activity
+            android:name=".ui.downloadmanager.ui.settings.SettingsActivity"
+            android:exported="true"
+            android:label="@string/settings">
+            <intent-filter>
+                <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:exported="true" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9872131534783069~1697091792" />
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.base.BaseActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.player.cast.ExpandedControlsActivity"
+            android:launchMode="singleTask"
+            android:persistent="true"
+            android:theme="@style/Theme.CastVideosDark"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:resizeableActivity="true"
+            android:exported="true"
+
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.easyplexdemoapp.ui.player.activities.EasyPlexMainPlayer" />
+        </activity>
+
+
+        <service
+            android:name="com.easyplexdemoapp.ui.notifications.NotificationManager"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <service
+            android:name=".ui.notifications.NotificationHandlerService"
+            android:foregroundServiceType="dataSync"
+            android:exported="false" />
+
+
+
+        <meta-data
+            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+            android:value="${applicationId}.ui.player.cast.CastOptionsProvider" />
+
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/notification_smal_size" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/gma_ad_services_config"
+            tools:replace="android:resource" />
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.payment.PaymentDetails"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme"
+            android:exported="true">
+
+            <!-- Intent Filters for Launching -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Intent Filters for Handling Specific URLs -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="https" />
+                <data android:host="${appdomain}" />
+                <data android:pathPrefix="/movies" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="https" />
+                <data android:host="${appdomain}" />
+                <data android:pathPrefix="/series" />
+            </intent-filter >
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="https" />
+                <data android:host="${appdomain}" />
+                <data android:pathPrefix="/animes" />
+            </intent-filter>
+
+
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="https" />
+                <data android:host="${appdomain}" />
+                <data android:pathPrefix="/streaming" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.login.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.users.PhoneAuthActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:screenOrientation="sensor" />
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.users.UserProfiles"
+            android:exported="true"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.devices.UserDevicesManagement"
+            android:exported="true"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.register.RegisterActivity"
+            android:exported="true"
+
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.settings.SettingsActivity"
+            android:exported="true"
+
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.streaming.StreamingetailsActivity"
+            android:exported="true"
+            android:parentActivityName="com.easyplexdemoapp.ui.base.BaseActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop">
+            <intent-filter android:autoVerify="true">
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.moviedetails.MovieDetailsActivity"
+            android:exported="true"
+            android:parentActivityName="com.easyplexdemoapp.ui.base.BaseActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:launchMode="singleTop">
+            <intent-filter android:autoVerify="true">
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.seriedetails.SerieDetailsActivity"
+            android:parentActivityName="com.easyplexdemoapp.ui.base.BaseActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:exported="true"
+
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="https" />
+                <data android:host="${appdomain}" />
+                <data android:pathPrefix="/series" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.animes.AnimeDetailsActivity"
+            android:parentActivityName="com.easyplexdemoapp.ui.base.BaseActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter android:autoVerify="true">
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.player.activities.EasyPlexMainPlayer"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:launchMode="singleTask"
+            android:exported="true"
+            android:theme="@style/TubiPlayerTheme" />
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.register.RegistrationSucess"
+            android:exported="true"
+
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.trailer.TrailerPreviewActivity"
+            android:exported="true"
+
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.player.cast.settings.CastPreference"
+            android:theme="@style/Theme.AppCompat"
+            android:exported="true"
+
+            android:label="@string/action_settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.upcoming.UpcomingTitlesActivity"
+            android:exported="true"
+
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.player.cast.queue.ui.QueueListViewActivity"
+            android:label="@string/queue_list"
+            android:exported="true"
+
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.profile.EditProfileActivity"
+            android:exported="true"
+
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.payment.Payment"
+            android:exported="true"
+
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.payment.PaymentPaypal"
+            android:exported="true"
+
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.payment.PaymentStripe"
+            android:exported="true"
+
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.player.activities.EmbedActivity"
+            android:screenOrientation="sensorLandscape"
+            android:exported="true"
+
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:launchMode="singleTask"
+
+            />
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.player.activities.YoutubePlayer"
+            android:exported="true"
+
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.login.PasswordForget"
+            android:exported="true"
+
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.seriedetails.EpisodeDetailsActivity"
+            android:parentActivityName="com.easyplexdemoapp.ui.base.BaseActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+            android:launchMode="singleTop"
+            android:exported="true"
+
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".ui.casts.CastDetailsActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            />
+
+
+        <activity
+            android:name=".ui.downloadmanager.ui.adddownload.AddDownloadActivity"
+            android:exported="true"
+
+            android:theme="@style/AppTheme.Launcher" />
+
+        <service
+            android:name=".ui.downloadmanager.service.DownloadService"
+
+            android:foregroundServiceType="dataSync" />
+
+
+
+
+
+        <activity
+            android:name=".ui.downloadmanager.ui.filemanager.FileManagerDialog"
+            android:theme="@style/AppTheme.Launcher"
+            android:exported="false" />
+
+
+        <receiver
+            android:name="com.easyplexdemoapp.ui.downloadmanager.receiver.BootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+
+        <receiver
+            android:name=".ui.receiver.NetworkChangeReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+
+        <activity
+            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+            android:screenOrientation="unspecified"
+            android:exported="false"
+            tools:node="merge"
+            android:theme="@style/Theme.Transparent.ImagePicker" />
+
+
+        <activity
+            android:name="com.easyplexdemoapp.ui.splash.ConfiigurationFirstLaunch"
+
+            android:screenOrientation="portrait"
+
+            />
+
+
+        <provider
+            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+            android:authorities="${applicationId}.imagepicker.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/image_picker_provider_paths" />
+        </provider>
+
+        <receiver
+            android:name=".ui.downloadmanager.receiver.NotificationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.easyplexdemoapp.ui.downloadmanager.receiver.NotificationReceiver.NOTIFY_ACTION_SHUTDOWN_APP" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

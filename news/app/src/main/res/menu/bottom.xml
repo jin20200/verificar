@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:iconTint="@color/white"
+        android:title="@string/home"
+        tools:targetApi="o" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search"
+        android:iconTint="@color/white"
+        android:menuCategory="secondary"
+        android:title="@string/discover"
+        tools:targetApi="o" />
+
+    <item
+        android:id="@+id/navigation_live"
+        android:icon="@drawable/ic_live"
+        android:iconTint="@color/white"
+        android:menuCategory="secondary"
+        android:title="@string/streaming"
+        tools:targetApi="o" />
+
+
+
+    <item
+        android:id="@+id/navigation_browse"
+        android:icon="@drawable/ic_apps"
+        android:menuCategory="secondary"
+        android:title="@string/library" />
+
+
+    <item
+        android:id="@+id/navigation_download"
+        android:icon="@drawable/ic_download"
+        android:iconTint="@color/white"
+        android:menuCategory="secondary"
+        android:title="@string/downloads"
+        tools:targetApi="o" />
+
+
+</menu>

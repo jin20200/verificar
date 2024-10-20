@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@drawable/fragment_shadows_top"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/LinearLayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/bt_close"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_gravity="end"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/ic_close"
+                android:contentDescription="@string/image"
+                app:tint="@color/grey_20" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:elevation="0dp"
+                    android:focusable="true"
+                    android:gravity="start"
+                    android:visibility="visible">
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:gravity="center|start"
+                        android:text="@string/try_easyplex_vip"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_below="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:background="@drawable/bg_loading_subtitles_accent"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+
+            android:visibility="visible"
+            android:orientation="vertical"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_below="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/grey_11"
+                android:padding="13dp"
+                android:text="@string/vip_features"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="7dp"
+                    app:srcCompat="@drawable/ic_glyph_solid_download"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:contentDescription="@string/image"
+                    app:tint="#ccc" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|start"
+                        android:text="@string/download_premium_content"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="7dp"
+                    app:srcCompat="@drawable/ic_play"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:contentDescription="@string/image"
+                    app:tint="#ccc" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="10dp"
+                    >
+                    <TextView
+                        android:textSize="14sp"
+                        android:gravity="center|start"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="@string/play_premium_content_without_restrictions"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="8dp"
+                    app:srcCompat="@drawable/ic_glyph_solid_stop_circle"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:contentDescription="@string/image"
+                    app:tint="#ccc" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="10dp"
+                    >
+                    <TextView
+                        android:textSize="14sp"
+                        android:gravity="center|start"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="@string/turn_off_ads_banner_interstitial_ads"
+                        android:layout_marginTop="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp">
+                <ImageView
+                    android:padding="8dp"
+                    app:srcCompat="@drawable/ic_glyph_solid_stop_circle"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:contentDescription="@string/image"
+                    app:tint="#ccc" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="10dp"
+                    >
+                    <TextView
+                        android:textSize="14sp"
+                        android:gravity="center|start"
+                        android:layout_marginTop="7dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="@string/disable_player_ads"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/view_watch_ads_to_play"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_gradient_white_login"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="40dp"
+                android:text="@string/watch_video_ads_to_unlock"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/text_view_go_pro"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_gradient_second_selected"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="40dp"
+                android:text="@string/subscribe_now"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

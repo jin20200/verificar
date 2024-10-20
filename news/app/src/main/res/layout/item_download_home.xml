@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:clipToPadding="false"
+        >
+
+        <!-- The support CardView adds padding for compat shadows on pre-v21, adjust accordingly. -->
+        <FrameLayout
+            android:id="@+id/cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:ignore="MissingConstraints">
+
+
+
+            <ImageView
+                android:id="@+id/itemMovieImage"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:scaleType="centerInside"
+                />
+
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:background="@drawable/fragment_shadows_top"
+                android:scaleType="centerInside"
+                />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:background="@drawable/item_recommended_shadow"
+                android:scaleType="centerInside"
+                />
+
+
+
+
+            <ProgressBar
+                android:id="@+id/resume_progress_bar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="250dp"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:indeterminate="false"
+                android:progressDrawable="@drawable/content_detail_progress" />
+
+
+            <ImageView
+                android:id="@+id/delete_from_history"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="end"
+                android:layout_margin="@dimen/spacing_middle"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/image"
+                app:srcCompat="@drawable/ic_delete" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="bottom"
+                android:layout_gravity="bottom|end"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/info_history"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_margin="@dimen/spacing_middle"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/image"
+                    app:srcCompat="@drawable/ic_text_fields"
+                    app:tint="@color/white" />
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/movietitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:maxLength="20"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/grey_20"
+            android:textSize="10sp"
+            android:fontFamily="@font/vaud_light"
+            app:layout_constraintTop_toBottomOf="@id/cardView"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:text="Movie Title" />
+
+
+        <TextView
+            android:id="@+id/releaseShowCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:maxLength="20"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/main_color"
+            android:textSize="10sp"
+            android:fontFamily="@font/vaud_light"
+            app:layout_constraintTop_toBottomOf="@id/movietitle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:text="Movie Title" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

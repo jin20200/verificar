@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/Toolbar.Light">
+
+        <LinearLayout
+            android:id="@+id/MoreOptionsLinear"
+            android:orientation="horizontal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selected_white_login"
+            android:focusable="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/backbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_arrow_back"
+                android:contentDescription="@string/image" />
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/logo_image_top"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:autoMirrored="true"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:contentDescription="@string/image" />
+
+    </androidx.appcompat.widget.Toolbar>
+</layout>

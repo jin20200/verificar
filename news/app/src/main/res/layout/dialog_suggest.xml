@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@drawable/fragment_shadows_top"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.90"
+        tools:ignore="UselessParent">
+
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/bt_close"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_gravity="end"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/ic_close"
+                android:contentDescription="@string/image"
+                app:tint="@color/grey_20" />
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_below="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:background="@drawable/bg_loading_subtitles_accent"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:visibility="visible"
+            android:orientation="vertical"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_below="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Suggestion"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/grey_3"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="10dp"
+                app:fontFamily="sans-serif-black" />
+
+            <EditText
+                android:id="@+id/et_post"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:backgroundTint="@android:color/holo_green_light"
+                android:gravity="center"
+                android:hint="@string/write_something"
+                android:textColorHint="@color/white"
+                android:theme="@style/EditText.Orange"
+                android:padding="@dimen/spacing_large"
+                android:textSize="14sp" />
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/view_report"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginTop="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:paddingStart="15dp"
+                android:background="@drawable/btn_gradient_white_login"
+                android:paddingEnd="15dp"
+                android:focusable="true"
+                android:gravity="start|center">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:text="@string/submit"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    android:textColor="@color/black"
+                    android:layout_gravity="start|center" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

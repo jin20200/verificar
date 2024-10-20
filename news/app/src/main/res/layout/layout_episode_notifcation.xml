@@ -1,0 +1,284 @@
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<FrameLayout
+    android:id="@+id/framlayout_media_ended"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    app:layout_constraintBottom_toTopOf="@+id/tubi_tv_controller_guideline_bottom"
+    app:layout_constraintTop_toTopOf="@+id/tubi_tv_controller_guideline_top"
+    >
+
+    <ImageView
+        android:id="@+id/next_cover_media"
+        android:layout_width="match_parent"
+        android:background="@color/grey_1100"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/image" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/fragment_shadows"
+        android:contentDescription="@string/image" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/fragment_shadows"
+        android:contentDescription="@string/image" />
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/left_shadow"
+        android:contentDescription="@string/image" />
+
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:indeterminateTint="@color/main_color"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/left_info"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="@dimen/spacing_large"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_video_next_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="30"
+            android:text="@string/title"
+            android:layout_gravity="start"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/grey_11"
+            android:textSize="24sp"
+            app:fontFamily="sans-serif-black" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:orientation="horizontal">
+
+
+            <RatingBar
+                android:id="@+id/rating_bar"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:numStars="5"
+                android:layout_gravity="start"
+                android:rating="4.0"
+                android:stepSize="0.1"
+                />
+
+
+            <TextView
+                android:id="@+id/view_movie_rating"
+                android:gravity="center"
+                android:background="@drawable/view_bg"
+                android:paddingStart="7dp"
+                android:paddingEnd="7dp"
+                android:layout_gravity="start"
+                android:layout_marginEnd="5dp"
+                android:textStyle="bold"
+                android:text="@string/movie_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                style="@style/H100"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textViewVideoRelease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/view_bg"
+            android:paddingStart="@dimen/spacing_middle"
+            android:paddingTop="@dimen/spacing_medium"
+            android:layout_gravity="start"
+            android:paddingEnd="@dimen/spacing_middle"
+            android:paddingBottom="@dimen/spacing_medium"
+            android:text="@string/seasons_8"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/grey_11"
+            android:textSize="@dimen/pixel_16dp"
+            app:fontFamily="sans-serif-black" />
+
+
+        <TextView
+            android:id="@+id/text_view_video_next_release_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/movie_genres_text"
+            android:textAllCaps="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="start"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="#a3afc2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-medium" />
+
+
+        <TextView
+            android:id="@+id/text_overview_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/movie_overview_text"
+            android:maxLines="5"
+            android:layout_gravity="start"
+            android:maxLength="300"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse"
+            android:textColor="@color/grey_11"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/close_media_ended"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_close"
+        android:layout_gravity="end"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="@string/image"
+        app:tint="@color/grey_40" />
+
+    <FrameLayout
+        android:id="@+id/nextPlayLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="45dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="bottom"
+        android:minHeight="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/pixel_15dp"
+        android:paddingEnd="@dimen/pixel_15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp"
+            tools:ignore="TooManyViews,UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="2dp"
+                    android:orientation="horizontal"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/text_view_video_time_remaining"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="qsdsd"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:layout_gravity="center"
+                        android:textAllCaps="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="@color/grey_11"
+                        app:fontFamily="sans-serif-black"
+                        tools:text="Up Next in : 15 sec" />
+
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/cardView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                <ImageView
+                    android:id="@+id/image_view_movie_next"
+                    android:layout_width="120dp"
+                    android:layout_height="63dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginEnd="5dp"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="@string/image" />
+
+                    <ImageView
+                        android:id="@+id/miniPlay"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/playbutton"
+                        android:contentDescription="@string/image" />
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</FrameLayout>
+
+
+</layout>
